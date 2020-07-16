@@ -1,32 +1,47 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
+<script>
+export default {};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap");
+
+:root {
+  --blue: #3da9fc;
 }
 
-#nav {
-  padding: 30px;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  overflow-x: hidden;
+}
+button,
+li {
+  cursor: pointer;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+button:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
 }
 </style>
