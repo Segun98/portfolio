@@ -24,14 +24,33 @@
                 <a href="/#about">about</a>
               </li>
               <li>
-                <router-link to="/#skills">Skills</router-link>
+                <a href="/#skills">skills</a>
               </li>
               <li>
-                <router-link to="/projects">Projects</router-link>
+                <router-link to="/projects">projects</router-link>
               </li>
               <li>
-                <router-link to="/contact">Contact</router-link>
+                <a href="/#contact">Contact</a>
               </li>
+              <span>
+                <li>
+                  <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">GH</a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/segun_os"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >TW</a>
+                </li>
+                <li>
+                  <a
+                    href="https://linkedin.com/in/segun-olanitori-b76275162"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >LN</a>
+                </li>
+              </span>
             </ul>
           </aside>
         </nav>
@@ -119,7 +138,7 @@ nav aside ul {
   flex-direction: column;
   align-items: center;
   width: 200px;
-  height: 200px;
+  height: 250px;
 }
 
 nav ul li {
@@ -134,6 +153,14 @@ nav ul li:hover {
 
 nav ul li a {
   color: var(--blue);
+}
+
+nav ul span {
+  display: flex;
+}
+nav ul span li a {
+  margin: 0 5px;
+  color: #094067;
 }
 
 @media only screen and (min-width: 1400px) {

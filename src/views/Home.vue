@@ -2,11 +2,13 @@
   <div>
     <main>
       <Header />
-      <div class="intro-wrap">
+      <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
           <h1>Frontend Developer.</h1>
           <p>I am an internet taught web developer who loves to build useful solutions on the web</p>
-          <button>Reach Out</button>
+          <a href="/#contact">
+            <button>Reach Out</button>
+          </a>
           <div class="main-intro_bottom">
             <small>I build modern responsive web applications for optimum user experience.</small>
             <small>Accessibility, performance, scalability, seo... are my watchwords</small>
@@ -28,16 +30,41 @@
     <section>
       <About />
     </section>
+
+    <section>
+      <Skills />
+    </section>
+
+    <section>
+      <Projects />
+    </section>
+
+    <section>
+      <Contact />
+    </section>
+
+    <section>
+      <Footer />
+    </section>
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
 import About from "@/components/About.vue";
+import Skills from "@/components/Skills.vue";
+import Projects from "@/components/Projects.vue";
+import Contact from "@/components/Contact.vue";
+import Footer from "@/components/Footer.vue";
+
 export default {
   components: {
     Header,
-    About
+    About,
+    Skills,
+    Projects,
+    Contact,
+    Footer
   }
 };
 </script>
@@ -79,6 +106,10 @@ main {
   border: none;
   font-weight: bold;
   border-radius: 4px;
+}
+
+.main-intro button a {
+  color: #fffffe;
 }
 .main-intro_bottom {
   display: flex;

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import ProjectsPage from '../views/ProjectsPage.vue'
 
 Vue.use(VueRouter)
 
@@ -9,13 +10,12 @@ const routes = [{
     name: 'Home',
     component: Home
   },
-  // {
-  // path: '/about',
-  // name: 'About',
-  // component: About
-  // route level code-splitting
-  // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // }
+  {
+    path: '/projects',
+    name: 'PorjectsPage',
+    component: ProjectsPage
+    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  }
 
 ]
 

@@ -20,11 +20,11 @@
           </p>
 
           <p
-            data-aos="fade-left"
+            data-aos="fade-up"
           >Technologies I look to learn this year include: Auth0, React Native, SQL & VueJS. In the future, I plan to learn a back-end programming language, most likely Ruby/ Ruby on Rails.</p>
 
           <p
-            data-aos="fade-up"
+            data-aos="fade-right"
           >I am an ex-intern at HNG6 Internship as a front end developer. I am a Business Administration graduate (B.Sc).</p>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default {};
 <style>
 .about {
   background: #d8eefe;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 .about h2 {
   text-align: center;
@@ -62,6 +62,7 @@ export default {};
 
 .about-wrap img {
   width: 100%;
+  display: none;
 }
 
 .about-content p {
@@ -107,6 +108,9 @@ export default {};
 }
 
 @media only screen and (min-width: 1200px) {
+  .about {
+    padding-bottom: 50px;
+  }
   .about h2 {
     margin-top: 10px;
   }
@@ -118,7 +122,10 @@ export default {};
   }
 
   .about-wrap img {
+    display: block;
     width: 80%;
+    position: sticky;
+    top: 0;
   }
 
   .about-content p {
@@ -134,6 +141,11 @@ export default {};
 
   .about-wrap {
     width: 70%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .about-wrap {
+    width: 60%;
   }
 }
 </style>
