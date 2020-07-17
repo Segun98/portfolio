@@ -5,11 +5,18 @@
       <form data-aos="fade-up">
         <aside>
           <label for="name">Your Name</label>
-          <input type="text" name="name" id="name" placeholder="Your Name" required />
+          <input type="text" name="name" id="name" placeholder="Your Name" required readonly />
         </aside>
         <aside>
           <label for="name">Your Email</label>
-          <input type="email" name="email" id="email" placeholder="example@hey.com" required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@hey.com"
+            required
+            readonly
+          />
         </aside>
         <aside>
           <label for="name">Message Body</label>
@@ -20,6 +27,7 @@
             rows="10"
             placeholder="Start typing..."
             required
+            readonly
           ></textarea>
         </aside>
       </form>

@@ -3,17 +3,17 @@
     <footer>
       <ul>
         <li>
-          <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">GH</a>
+          <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">Github</a>
         </li>
         <li>
-          <a href="https://twitter.com/segun_os" target="_blank" rel="noopener noreferrer">TW</a>
+          <a href="https://twitter.com/segun_os" target="_blank" rel="noopener noreferrer">Twitter</a>
         </li>
         <li>
           <a
             href="https://linkedin.com/in/segun-olanitori-b76275162"
             target="_blank"
             rel="noopener noreferrer"
-          >LN</a>
+          >LinkedIn</a>
         </li>
       </ul>
       <p>
@@ -48,6 +48,7 @@ footer {
 footer h3 {
   text-align: center;
   font-size: 12px;
+  margin-top: 5px;
 }
 
 footer p span {

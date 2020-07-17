@@ -3,17 +3,316 @@
     <section>
       <Header />
     </section>
+
+    <section class="projects-page">
+      <h2>Some Of My Projects</h2>
+      <div class="projects-page-wrap">
+        <div class="project-page-item" data-aos="fade-up">
+          <img :src="Employeez" alt="the image of an app named Employeez" />
+          <p>Employeez</p>
+          <h5>An Employee and Customer Management web application</h5>
+          <div class="tech-used">
+            <p>Typescript</p>
+            <p>Reactjs - Redux</p>
+            <p>SASS / Chakra UI</p>
+            <p>Nodejs/Expressjs</p>
+            <p>JWT Authentication</p>
+            <p>MongoDB</p>
+            <p>REST API</p>
+            <p>Send Bulk Emails</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://employeez.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Live Preview</a>
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/employeez"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Github Repo</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="project-page-item" data-aos="fade-up">
+          <img :src="Locallog" alt="the image of an app named Employeez" />
+          <p>Locallog</p>
+          <h5>An online publishing platform</h5>
+          <div class="tech-used">
+            <p>Nextjs</p>
+            <p>GraphQL API</p>
+            <p>Nodejs/Expressjs</p>
+            <p>MongoDB</p>
+            <p>Serverless Functions</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://locallog.now.sh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Live Preview</a>
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/locallog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Github Repo</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="project-page-item" data-aos="fade-up">
+          <img :src="Nairatrack" alt="the image of an app named Nairatrack" />
+          <p>Nairatrack</p>
+          <h5>An Income and Expense Tracker App</h5>
+          <div class="tech-used">
+            <p>Reactjs</p>
+            <p>Context API</p>
+            <p>Localstorage</p>
+            <p>PWA</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://nairatrack.now.sh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Live Preview</a>
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/NairaTrack"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Github Repo</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="project-page-item" data-aos="fade-up">
+          <img :src="Averages" alt="the image of an app named Averages" />
+          <p>Averages</p>
+          <h5>Mean, Mean Deviation, Variance and Standard deviation Calculator</h5>
+          <div class="tech-used">
+            <p>Reactjs</p>
+            <p>Context API</p>
+            <p>PWA</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://averages.now.sh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Live Preview</a>
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/averages-calculator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Github Repo</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="project-page-item" data-aos="fade-up">
+          <img :src="Quiz" alt="a quiz app" />
+          <p>Quiz</p>
+          <h5>How well do you know me?</h5>
+          <div class="tech-used">
+            <p>Vanilla JavaScript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://segun98.github.io/quiz-app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Live Preview</a>
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/quiz-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Github Repo</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="project-page-item" data-aos="fade-up">
+          <img :src="Manage" alt="the image of an app named Manage" />
+          <p>Manage Landing Page</p>
+          <h5>A challenge by Frontend Mentor</h5>
+          <div class="tech-used">
+            <p>HTML</p>
+            <p>CSS Grid/ Flexbox</p>
+            <p>Form Validation</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://segun98.github.io/manage-landing-page/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Live Preview</a>
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/manage-landing-page"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Github Repo</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <Footer />
+    </section>
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
+import Employeez from "../assets/employeezapp.png";
+import Locallog from "../assets/locallog.png";
+import Nairatrack from "../assets/nairatrack.png";
+import Averages from "../assets/averages.png";
+import Manage from "../assets/manage-page.png";
+import Quiz from "../assets/quiz-app-sc.png";
+
 export default {
   components: {
-    Header
+    Header,
+    Footer
+  },
+  data() {
+    return {
+      Employeez,
+      Locallog,
+      Nairatrack,
+      Averages,
+      Manage,
+      Quiz
+    };
   }
 };
 </script>
 
-<style>
+<style scoped>
+.projects-page {
+  background: #d8eefe;
+  padding: 40px 0;
+}
+.projects-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  color: #094067;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.projects-page h2:hover {
+  transition: 0.5s ease-in-out;
+  color: #ef4565;
+}
+
+.projects-page-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+}
+
+.project-page-item img {
+  width: 100%;
+  height: auto;
+}
+
+.project-page-item {
+  background: #fffffe;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.project-page-item h5 {
+  margin: 8px 0;
+  color: #5f6c7b;
+  text-align: center;
+}
+
+.project-page-item p {
+  margin-top: 5px;
+  color: #094067;
+  text-align: center;
+}
+
+.project-page-span span {
+  margin-left: 8px;
+  font-size: 0.9rem;
+}
+.project-page-span span a {
+  color: #ef4565;
+}
+
+.tech-used {
+  margin: 10px 0;
+}
+.tech-used p {
+  display: inline-block;
+  background: #3da9fc;
+  padding: 10px;
+  color: #fffffe;
+  border: 1px solid #fffffe;
+  margin: 3px;
+}
+
+@media only screen and (min-width: 700px) {
+  .projects-page-wrap {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .projects-page-wrap {
+    width: 80%;
+    gap: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .projects-page-wrap {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .projects-page-wrap {
+    width: 60%;
+  }
+
+  .project-page-item h5 {
+    font-size: 1.2rem;
+  }
+  .project-page-item p {
+    font-size: 1.4rem;
+  }
+}
 </style>
