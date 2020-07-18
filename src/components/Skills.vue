@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="skills" id="skills">
+    <section class="skills" :class="{'darkMode': this.isDark}" id="skills">
       <h2>Skills</h2>
       <div class="skills-wrap">
         <div class="skills-card" data-aos="fade-up">
@@ -13,7 +13,7 @@
             <p>Reactjs</p>
             <p>Nextjs</p>
             <p>Redux</p>
-            <p>Vuejs</p>
+            <p class="new-skill">Vuejs</p>
           </aside>
         </div>
         <div class="skills-card" data-aos="fade-up">
@@ -53,20 +53,32 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    isDark() {
+      return this.$store.getters.darkState;
+    }
+  }
+};
 </script>
 
 <style>
 .skills {
   background: #fffffe;
   padding-bottom: 20px;
+  transition: 0.5s ease-in-out;
+}
+.darkMode {
+  background: rgb(21, 32, 43);
+  background: black;
+  transition: 0.5s ease-in-out;
 }
 .skills h2 {
   text-align: center;
   color: #094067;
   font-weight: bold;
   transition: 0.5s ease-in-out;
-  margin: 10px 0;
+  padding: 10px 0;
 }
 .skills h2:hover {
   transition: 0.5s ease-in-out;
@@ -103,6 +115,18 @@ export default {};
   margin: 3px;
 }
 
+.skills-card .new-skill {
+  position: relative;
+}
+.skills-card .new-skill:after {
+  position: absolute;
+  content: "new";
+  color: #ef4565;
+  font-size: 12px;
+  top: 0;
+  margin-left: -15px;
+}
+
 @media only screen and (min-width: 700px) {
   .skills-wrap {
     grid-template-columns: 1fr 1fr;
@@ -124,7 +148,7 @@ export default {};
 
 @media only screen and (min-width: 1200px) {
   .skills h2 {
-    margin: 50px 0;
+    padding: 50px 0;
   }
   .skills-wrap {
     width: 70%;

@@ -4,7 +4,7 @@
       <Header />
     </section>
 
-    <section class="projects-page">
+    <section class="projects-page" :class="{'darkMode': this.isDark}" id="top">
       <h2>Some Of My Projects</h2>
       <div class="projects-page-wrap">
         <div class="project-page-item" data-aos="fade-up">
@@ -176,10 +176,64 @@
             </span>
           </div>
         </div>
+
+        <div class="project-page-item" data-aos="fade-up">
+          <img :src="Youtube" alt="the image of an Youtube Clone app" />
+          <p>Youtube Clone</p>
+          <h5>It was built the morning after Nigeria recorded its first case of Covid-19. This was in February</h5>
+          <div class="tech-used">
+            <p>Reactjs</p>
+            <p>Youtube API</p>
+            <p>Axios</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://youtube-clone.segunos.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Live Preview</a>
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/Youtube-Clone-App"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Github Repo</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="project-page-item" data-aos="fade-up">
+          <img :src="Cart" alt="the image of my shopping cart project" />
+          <p>Shopping Cart</p>
+          <h5>My first introduction to Higher Order Array Methods like map, filter, reduce</h5>
+          <div class="tech-used">
+            <p>Reactjs</p>
+            <p>Context API</p>
+            <p>Local Storage</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://shoppingcart-project.now.sh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Live Preview</a>
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/shopping-cart-project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Github Repo</a>
+            </span>
+          </div>
+        </div>
       </div>
     </section>
     <section>
-      <Footer />
+      <Footer top="/projects/#top" />
     </section>
   </div>
 </template>
@@ -187,12 +241,16 @@
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+
+// images
 import Employeez from "../assets/employeezapp.png";
 import Locallog from "../assets/locallog.png";
 import Nairatrack from "../assets/nairatrack.png";
 import Averages from "../assets/averages.png";
 import Manage from "../assets/manage-page.png";
 import Quiz from "../assets/quiz-app-sc.png";
+import Cart from "../assets/cart-project.png";
+import Youtube from "../assets/youtube-clone.png";
 
 export default {
   components: {
@@ -206,8 +264,15 @@ export default {
       Nairatrack,
       Averages,
       Manage,
-      Quiz
+      Quiz,
+      Cart,
+      Youtube
     };
+  },
+  computed: {
+    isDark() {
+      return this.$store.getters.darkState;
+    }
   }
 };
 </script>
@@ -216,6 +281,12 @@ export default {
 .projects-page {
   background: #d8eefe;
   padding: 40px 0;
+  transition: 0.5s ease-in-out;
+}
+.darkMode {
+  background: rgb(21, 32, 43);
+  background: black;
+  transition: 0.5s ease-in-out;
 }
 .projects-page h2 {
   text-align: center;

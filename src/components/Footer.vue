@@ -20,7 +20,7 @@
         Created with Vuejs
         <span>&hearts;</span>
         <span>
-          <a href="/#intro">Go To Top</a>
+          <a :href="top">Go To Top</a>
         </span>
       </p>
       <h3>
@@ -32,7 +32,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["top"]
+};
 </script>
 
 <style>

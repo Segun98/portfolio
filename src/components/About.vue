@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="about" id="about">
+    <section class="about" :class="{'darkMode': this.isDark}" id="about">
       <h2>About Me.</h2>
       <div class="about-wrap">
         <img src="undraw_profile_6l1l.svg" alt="about me image" />
@@ -33,13 +33,27 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    isDark() {
+      return this.$store.getters.darkState;
+    }
+  }
+};
 </script>
 
 <style>
 .about {
+  transition: 0.5s ease-in-out;
   background: #d8eefe;
   padding: 50px 0;
+}
+.darkMode {
+  background: rgb(21, 32, 43);
+  background: black;
+  transition: 0.5s ease-in-out;
+  border-top: 1px solid #d8eefe;
+  border-bottom: 1px solid #d8eefe;
 }
 .about h2 {
   text-align: center;

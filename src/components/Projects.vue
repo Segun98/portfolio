@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="projects">
+    <section class="projects" :class="{'darkMode': this.isDark}">
       <h2>Projects</h2>
       <div class="projects-wrap">
         <div class="project-item" data-aos="fade-up">
@@ -47,9 +47,9 @@
         </div>
       </div>
       <aside class="project-btn">
-        <router-link to="/projects">
+        <a href="/projects/#top">
           <button>All Projects</button>
-        </router-link>
+        </a>
       </aside>
     </section>
   </div>
@@ -64,6 +64,11 @@ export default {
       Employeez,
       Locallog
     };
+  },
+  computed: {
+    isDark() {
+      return this.$store.getters.darkState;
+    }
   }
 };
 </script>
@@ -72,6 +77,14 @@ export default {
 .projects {
   background: #d8eefe;
   padding: 40px 0;
+  transition: 0.5s ease-in-out;
+}
+.darkMode {
+  background: rgb(21, 32, 43);
+  background: black;
+  transition: 0.5s ease-in-out;
+  border-top: 1px solid #d8eefe;
+  border-bottom: 1px solid #d8eefe;
 }
 .projects h2 {
   text-align: center;
@@ -155,9 +168,6 @@ export default {
   .projects-wrap {
     width: 80%;
     gap: 30px;
-  }
-  .projects button {
-    padding: 15px 30px;
   }
 }
 

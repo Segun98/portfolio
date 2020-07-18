@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header>
+    <header :class="{'darkMode': this.isDark}">
       <div class="header-wrap">
         <div class="logo">
           <router-link to="/">
@@ -8,9 +8,10 @@
             <a>Segun</a>
           </router-link>
         </div>
+        <div class="darky" @click="toggleDarkMode">{{isDark? "light" : "dark"}}</div>
         <nav>
           <img
-            src="icons8-menu.svg"
+            :src="Menu"
             alt="menu"
             @click="toggleHamburger"
             :class="{'open-hamburger':this.isClicked}"
@@ -18,7 +19,7 @@
           <aside :class="{'open-menu':this.isClicked}">
             <ul class="close">
               <li>
-                <router-link to="/">Home</router-link>
+                <router-link to="/">home</router-link>
               </li>
               <li>
                 <a href="/#about">about</a>
@@ -30,7 +31,7 @@
                 <router-link to="/projects">projects</router-link>
               </li>
               <li>
-                <a href="/#contact">Contact</a>
+                <a href="/#contact">contact</a>
               </li>
               <span>
                 <li>
@@ -60,21 +61,38 @@
 </template>
 
 <script>
+import Menu from "../assets/icons8-menu.svg";
 export default {
   data() {
     return {
-      isClicked: false
+      isClicked: false,
+      Menu
     };
+  },
+  computed: {
+    isDark() {
+      return this.$store.getters.darkState;
+    }
   },
   methods: {
     toggleHamburger() {
       this.isClicked = !this.isClicked;
+    },
+    toggleDarkMode() {
+      this.$store.commit("toggleDarkMode");
+      console.log(this.isDark);
     }
   }
 };
 </script>
 
 <style scoped>
+.darkMode {
+  background: rgb(21, 32, 43);
+  background: black;
+  transition: 0.5s ease-in-out;
+}
+
 .header-wrap {
   display: flex;
   justify-content: space-between;
@@ -82,6 +100,14 @@ export default {
   margin: auto;
   width: 85%;
   padding: 20px 0;
+  position: relative;
+}
+
+.darky {
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+  color: #ef4565;
 }
 
 .logo {

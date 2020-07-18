@@ -2,10 +2,17 @@
   <div>
     <section class="contact" id="contact">
       <h2>Contact</h2>
-      <form data-aos="fade-up">
+      <form data-aos="fade-up" @submit="handleForm">
         <aside>
           <label for="name">Your Name</label>
-          <input type="text" name="name" id="name" placeholder="Your Name" required readonly />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            v-model.trim="name"
+            required
+          />
         </aside>
         <aside>
           <label for="name">Your Email</label>
@@ -15,7 +22,7 @@
             id="email"
             placeholder="example@hey.com"
             required
-            readonly
+            v-model.trim="email"
           />
         </aside>
         <aside>
@@ -27,16 +34,54 @@
             rows="10"
             placeholder="Start typing..."
             required
-            readonly
+            v-model.trim="body"
           ></textarea>
         </aside>
+        <p class="loading" :class="{'loading-true': loading}">{{message}}</p>
+        <div class="contact-btn">
+          <button type="submit">Send</button>
+        </div>
       </form>
     </section>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      loading: false,
+      message: "",
+      name: "",
+      email: "",
+      body: ""
+    };
+  },
+  methods: {
+    handleForm(e) {
+      e.preventDefault();
+      this.loading = true;
+      this.message = "Loading...";
+      const payload = {
+        email: this.email,
+        text: `${this.name},
+
+
+        ${this.body}`
+      };
+      setTimeout(() => {
+        this.message = "Message Sent!";
+      }, 5000);
+      console.log(payload);
+      setTimeout(() => {
+        this.loading = false;
+        this.name = "";
+        this.email = "";
+        this.body = "";
+      }, 7000);
+    }
+  }
+};
 </script>
 
 <style>
@@ -81,9 +126,39 @@ form aside textarea {
   padding: 10px;
 }
 
+.contact-btn {
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+}
+.contact-btn button {
+  background: #ef4565;
+  border: none;
+  padding: 10px 20px;
+}
+
+.contact-btn button {
+  color: #fffffe;
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  display: none;
+  color: whitesmoke;
+  padding-top: 10px;
+}
+.loading-true {
+  display: block;
+}
+
 @media only screen and (min-width: 700px) {
   form {
     width: 50%;
+  }
+
+  .contact-btn button {
+    padding: 15px 30px;
   }
 }
 

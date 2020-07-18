@@ -1,11 +1,11 @@
 <template>
   <div>
-    <main>
+    <main :class="{'darkMode': this.isDark}">
       <Header />
       <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
           <h1>Frontend Developer.</h1>
-          <p>I am an internet taught web developer who loves to build useful solutions on the web</p>
+          <p>I am an internet taught web developer interested in building user friendly solutions on the web</p>
           <a href="/#contact">
             <button>Reach Out</button>
           </a>
@@ -44,7 +44,7 @@
     </section>
 
     <section>
-      <Footer />
+      <Footer top="/#intro" />
     </section>
   </div>
 </template>
@@ -65,12 +65,23 @@ export default {
     Projects,
     Contact,
     Footer
+  },
+  computed: {
+    isDark() {
+      return this.$store.getters.darkState;
+    }
   }
 };
 </script>
 <style scoped>
 main {
   background: #fffffe;
+  transition: 0.5s ease-in-out;
+}
+.darkMode {
+  background: rgb(21, 32, 43);
+  background: black;
+  transition: 0.5s ease-in-out;
 }
 .intro-wrap {
   display: grid;
@@ -141,7 +152,7 @@ aside img {
 @media only screen and (min-width: 700px) {
   .intro-wrap {
     width: 70%;
-    height: 90vh;
+    height: 500px;
     margin-top: 30px;
   }
   .main-intro {

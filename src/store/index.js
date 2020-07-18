@@ -5,11 +5,16 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    darkmode: false
   },
   mutations: {
+    toggleDarkMode(state) {
+      state.darkmode = !state.darkmode
+    }
   },
-  actions: {
+  getters: {
+    darkState: state => state.darkmode
   },
-  modules: {
-  }
+  // actions: {},
+  // modules: {}
 })
