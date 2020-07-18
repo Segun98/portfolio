@@ -12,8 +12,8 @@
       </div>
       <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
-          <h1>Frontend Developer.</h1>
-          <p>
+          <h1 :class="{ 'color-change': this.isDark }">Frontend Developer.</h1>
+          <p :style="[this.isDark ? {'color': 'white'} : {}]">
             I am an internet taught web developer interested in building user
             friendly solutions on the web
           </p>
@@ -21,14 +21,14 @@
             <button>Reach Out</button>
           </a>
           <div class="main-intro_bottom">
-            <small
-              >I build modern responsive web applications for optimum user
-              experience.</small
-            >
-            <small
-              >Accessibility, performance, scalability, seo... are my
-              watchwords</small
-            >
+            <small>
+              I build modern responsive web applications for optimum user
+              experience.
+            </small>
+            <small>
+              Accessibility, performance, scalability, seo... are my
+              watchwords
+            </small>
           </div>
         </div>
 
@@ -81,13 +81,13 @@ export default {
     Skills,
     Projects,
     Contact,
-    Footer,
+    Footer
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    },
-  },
+    }
+  }
 };
 </script>
 <style scoped>
@@ -156,6 +156,7 @@ main {
   background: black;
   transition: 0.5s ease-in-out;
 }
+
 .intro-wrap {
   display: grid;
   grid-template-columns: 1fr;

@@ -1,8 +1,8 @@
 <template>
   <div>
     <section class="contact" id="contact">
-      <h2>Contact</h2>
-      <form data-aos="fade-up" @submit="handleForm">
+      <h2 :class="{ 'color-change': this.isDark }">Contact</h2>
+      <form @submit="handleForm">
         <aside>
           <label for="name">Your Name</label>
           <input
@@ -37,9 +37,7 @@
             v-model.trim="body"
           ></textarea>
         </aside>
-        <p class="loading" :class="{ 'loading-true': loading }">
-          {{ message }}
-        </p>
+        <p class="loading" :class="{ 'loading-true': loading }">{{ message }}</p>
         <div class="contact-btn">
           <button type="submit">Send</button>
         </div>
@@ -57,7 +55,7 @@ export default {
       message: "",
       name: "",
       email: "",
-      body: "",
+      body: ""
     };
   },
   methods: {
@@ -68,7 +66,7 @@ export default {
         text: `${this.name},
 
 
-        ${this.body}`,
+        ${this.body}`
       };
       try {
         this.loading = true;
@@ -94,8 +92,8 @@ export default {
           }, 5000);
         }
       }
-    },
-  },
+    }
+  }
 };
 </script>
 

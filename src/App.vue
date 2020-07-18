@@ -29,6 +29,10 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   overflow-x: hidden;
 }
+/* headings color change in dark mode  */
+.color-change {
+  color: var(--blue) !important;
+}
 button,
 li {
   cursor: pointer;

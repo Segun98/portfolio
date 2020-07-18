@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="projects" :class="{'darkMode': this.isDark}">
-      <h2>Projects</h2>
+      <h2 :class="{ 'color-change': this.isDark }">Projects</h2>
       <div class="projects-wrap">
         <div class="project-item" data-aos="fade-up">
           <img :src="Employeez" alt="the image of an app named Employeez" />

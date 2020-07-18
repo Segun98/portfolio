@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="about" :class="{'darkMode': this.isDark}" id="about">
-      <h2>About Me.</h2>
+      <h2 :class="{ 'color-change': this.isDark }">About Me.</h2>
       <div class="about-wrap">
         <img src="undraw_profile_6l1l.svg" alt="about me image" />
         <div class="about-content">
@@ -9,7 +9,7 @@
             data-aos="fade-up"
           >I am an internet taught front-end web developer with over a year of experience. I love to solve problems and learn new technologies.</p>
 
-          <p data-aos="fade-right">
+          <p data-aos="fade-up">
             I am interested in building solutions on the web with concern for Accessibility, Functionality, Responsiveness, Search Engine Optimization (SEO), Image Optimization, User Interface and Experience (UI/UX). I take Ligthhouse Report seriously. I wrote
             <a
               style="color:#ef4565"
@@ -24,7 +24,7 @@
           >Technologies I look to learn this year include: Auth0, React Native, SQL & VueJS. In the future, I plan to learn a back-end programming language, most likely Ruby/ Ruby on Rails.</p>
 
           <p
-            data-aos="fade-right"
+            data-aos="fade-up"
           >I am an ex-intern at HNG6 Internship as a front end developer. I am a Business Administration graduate (B.Sc).</p>
         </div>
       </div>
@@ -61,6 +61,11 @@ export default {
   color: #094067;
   font-weight: bold;
   transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 374px) {
+  .about h2 {
+    margin-top: 40px;
+  }
 }
 .about h2:hover {
   transition: 0.5s ease-in-out;

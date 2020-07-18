@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="skills" :class="{'darkMode': this.isDark}" id="skills">
-      <h2>Skills</h2>
+      <h2 :class="{ 'color-change': this.isDark }">Skills</h2>
       <div class="skills-wrap">
         <div class="skills-card" data-aos="fade-up">
           <h3>Front End</h3>
@@ -31,7 +31,7 @@
             <p>GraphQL</p>
           </aside>
         </div>
-        <div class="skills-card" data-aos="fade-down">
+        <div class="skills-card" data-aos="fade-up">
           <h3>Tools</h3>
           <aside>
             <p>Git</p>
@@ -39,7 +39,7 @@
             <p>VSCode</p>
           </aside>
         </div>
-        <div class="skills-card" data-aos="fade-right">
+        <div class="skills-card" data-aos="fade-up">
           <h3>Taking Lessons</h3>
           <aside>
             <p>SQL</p>

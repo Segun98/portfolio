@@ -5,7 +5,7 @@
     </section>
 
     <section class="projects-page" :class="{'darkMode': this.isDark}" id="top">
-      <h2>Some Of My Projects</h2>
+      <h2 :class="{ 'color-change': this.isDark }">Some Of My Projects</h2>
       <div class="projects-page-wrap">
         <div class="project-page-item" data-aos="fade-up">
           <img :src="Employeez" alt="the image of an app named Employeez" />
