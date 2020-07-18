@@ -2,6 +2,14 @@
   <div>
     <main :class="{ darkMode: this.isDark }">
       <Header />
+      <div class="particles">
+        <small class="particles-item">accessibility</small>
+        <small class="particles-item">seo</small>
+        <small class="particles-item">abeg i dey find work</small>
+        <small class="particles-item">responsive design</small>
+        <small class="particles-item">performance</small>
+        <small class="particles-item">best practices</small>
+      </div>
       <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
           <h1>Frontend Developer.</h1>
@@ -87,6 +95,62 @@ main {
   background: #fffffe;
   transition: 0.5s ease-in-out;
 }
+
+/* particles styles  */
+.particles-item {
+  color: #ef4565;
+  position: fixed;
+  animation: particles infinite ease-in-out 3s;
+  font-size: 11px;
+}
+
+.particles-item:first-child {
+  right: 20%;
+  top: 120px;
+  transform: rotate(50deg);
+}
+.particles-item:nth-child(2) {
+  left: 10%;
+  top: 150px;
+  transform: rotate(60deg);
+}
+.particles-item:nth-child(3) {
+  left: 30%;
+  top: 100px;
+  font-size: 9px;
+  transform: rotate(0deg);
+}
+
+.particles-item:nth-child(4) {
+  right: 10px;
+  top: 350px;
+  transform: rotate(-10deg);
+}
+
+.particles-item:nth-child(5) {
+  left: 30%;
+  top: 350px;
+  transform: rotate(60deg);
+}
+
+.particles-item:last-child {
+  left: 100px;
+  top: 450px;
+  transform: rotate(-70deg);
+}
+
+@keyframes particles {
+  0% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+
 .darkMode {
   background: rgb(21, 32, 43);
   background: black;
