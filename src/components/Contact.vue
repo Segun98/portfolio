@@ -37,7 +37,9 @@
             v-model.trim="body"
           ></textarea>
         </aside>
-        <p class="loading" :class="{'loading-true': loading}">{{message}}</p>
+        <p class="loading" :class="{ 'loading-true': loading }">
+          {{ message }}
+        </p>
         <div class="contact-btn">
           <button type="submit">Send</button>
         </div>
@@ -47,6 +49,7 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
   data() {
     return {
@@ -54,33 +57,45 @@ export default {
       message: "",
       name: "",
       email: "",
-      body: ""
+      body: "",
     };
   },
   methods: {
-    handleForm(e) {
+    async handleForm(e) {
       e.preventDefault();
-      this.loading = true;
-      this.message = "Loading...";
       const payload = {
         email: this.email,
         text: `${this.name},
 
 
-        ${this.body}`
+        ${this.body}`,
       };
-      setTimeout(() => {
-        this.message = "Message Sent!";
-      }, 5000);
-      console.log(payload);
-      setTimeout(() => {
-        this.loading = false;
-        this.name = "";
-        this.email = "";
-        this.body = "";
-      }, 7000);
-    }
-  }
+      try {
+        this.loading = true;
+        this.message = "Sending...";
+        const res = await axios.post(
+          "https://apiportfolio.vercel.app/api/mail",
+          payload
+        );
+        const data = await res.data;
+        if (data.message) {
+          this.name = "";
+          this.email = "";
+          this.body = "";
+          setTimeout(() => {
+            this.message = "Message Recieved!";
+          }, 5000);
+        }
+      } catch (err) {
+        console.log(err);
+        if (err) {
+          setTimeout(() => {
+            this.message = "an error occurred, check your internet connection";
+          }, 5000);
+        }
+      }
+    },
+  },
 };
 </script>
 

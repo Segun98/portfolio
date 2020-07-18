@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header :class="{'darkMode': this.isDark}">
+    <header :class="{ darkMode: this.isDark }">
       <div class="header-wrap">
         <div class="logo">
           <router-link to="/">
@@ -8,15 +8,17 @@
             <a>Segun</a>
           </router-link>
         </div>
-        <div class="darky" @click="toggleDarkMode">{{isDark? "light" : "dark"}}</div>
+        <div class="darky" @click="toggleDarkMode">
+          <img :src="DarkImage" alt="dark mode switcher" />
+        </div>
         <nav>
           <img
             :src="Menu"
             alt="menu"
             @click="toggleHamburger"
-            :class="{'open-hamburger':this.isClicked}"
+            :class="{ 'open-hamburger': this.isClicked }"
           />
-          <aside :class="{'open-menu':this.isClicked}">
+          <aside :class="{ 'open-menu': this.isClicked }">
             <ul class="close">
               <li>
                 <router-link to="/">home</router-link>
@@ -35,21 +37,28 @@
               </li>
               <span>
                 <li>
-                  <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">GH</a>
+                  <a
+                    href="https://github.com/segun98"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GH</a
+                  >
                 </li>
                 <li>
                   <a
                     href="https://twitter.com/segun_os"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >TW</a>
+                    >TW</a
+                  >
                 </li>
                 <li>
                   <a
                     href="https://linkedin.com/in/segun-olanitori-b76275162"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >LN</a>
+                    >LN</a
+                  >
                 </li>
               </span>
             </ul>
@@ -62,17 +71,19 @@
 
 <script>
 import Menu from "../assets/icons8-menu.svg";
+import DarkImage from "../assets/30466.svg";
 export default {
   data() {
     return {
       isClicked: false,
-      Menu
+      Menu,
+      DarkImage,
     };
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
+    },
   },
   methods: {
     toggleHamburger() {
@@ -80,9 +91,8 @@ export default {
     },
     toggleDarkMode() {
       this.$store.commit("toggleDarkMode");
-      console.log(this.isDark);
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -103,11 +113,16 @@ export default {
   position: relative;
 }
 
-.darky {
+.darky img {
   position: absolute;
+  top: 0;
   right: 0;
-  margin-right: 80px;
+  margin-top: 13px;
+  margin-right: 60px;
   color: #ef4565;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
 }
 
 .logo {
@@ -189,10 +204,21 @@ nav ul span li a {
   color: #094067;
 }
 
+@media only screen and (min-width: 1200px) {
+  .darky img {
+    margin-top: 20px;
+    margin-right: 70px;
+  }
+}
+
 @media only screen and (min-width: 1400px) {
   .header-wrap {
     width: 80%;
     padding-top: 30px;
+  }
+  .darky img {
+    margin-top: 30px;
+    margin-right: 80px;
   }
 }
 

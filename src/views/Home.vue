@@ -1,17 +1,26 @@
 <template>
   <div>
-    <main :class="{'darkMode': this.isDark}">
+    <main :class="{ darkMode: this.isDark }">
       <Header />
       <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
           <h1>Frontend Developer.</h1>
-          <p>I am an internet taught web developer interested in building user friendly solutions on the web</p>
+          <p>
+            I am an internet taught web developer interested in building user
+            friendly solutions on the web
+          </p>
           <a href="/#contact">
             <button>Reach Out</button>
           </a>
           <div class="main-intro_bottom">
-            <small>I build modern responsive web applications for optimum user experience.</small>
-            <small>Accessibility, performance, scalability, seo... are my watchwords</small>
+            <small
+              >I build modern responsive web applications for optimum user
+              experience.</small
+            >
+            <small
+              >Accessibility, performance, scalability, seo... are my
+              watchwords</small
+            >
           </div>
         </div>
 
@@ -64,13 +73,13 @@ export default {
     Skills,
     Projects,
     Contact,
-    Footer
+    Footer,
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
-  }
+    },
+  },
 };
 </script>
 <style scoped>
@@ -166,6 +175,7 @@ aside img {
 @media only screen and (min-width: 1000px) {
   .intro-wrap {
     margin-top: 30px;
+    height: 90vh;
   }
 }
 
@@ -216,4 +226,3 @@ aside img {
   }
 }
 </style>
-
