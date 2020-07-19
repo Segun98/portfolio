@@ -39,7 +39,7 @@
         </aside>
         <p class="loading" :class="{ 'loading-true': loading }">{{ message }}</p>
         <div class="contact-btn">
-          <button type="submit">Send</button>
+          <button type="submit" :disabled="this.loading">Send</button>
         </div>
       </form>
     </section>
@@ -57,6 +57,11 @@ export default {
       email: "",
       body: ""
     };
+  },
+  computed: {
+    isDark() {
+      return this.$store.getters.darkState;
+    }
   },
   methods: {
     async handleForm(e) {
@@ -80,16 +85,20 @@ export default {
           this.name = "";
           this.email = "";
           this.body = "";
+          this.message = "Message Recieved!";
           setTimeout(() => {
-            this.message = "Message Recieved!";
+            this.loading = false;
+            this.message = "";
           }, 5000);
         }
       } catch (err) {
         console.log(err);
+        this.message = "an error occurred, check your internet connection";
         if (err) {
           setTimeout(() => {
-            this.message = "an error occurred, check your internet connection";
-          }, 5000);
+            this.message = "";
+            this.loading = false;
+          }, 3000);
         }
       }
     }
@@ -133,10 +142,12 @@ form aside input {
   background: #fffffe;
   border: none;
   padding: 10px;
+  z-index: 1;
 }
 
 form aside textarea {
   padding: 10px;
+  z-index: 1;
 }
 
 .contact-btn {

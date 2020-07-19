@@ -5,7 +5,7 @@
       <div class="particles">
         <small class="particles-item">accessibility</small>
         <small class="particles-item">seo</small>
-        <small class="particles-item">abeg i dey find work</small>
+        <small class="particles-item">user experience</small>
         <small class="particles-item">responsive design</small>
         <small class="particles-item">performance</small>
         <small class="particles-item">best practices</small>
@@ -242,6 +242,9 @@ aside img {
     margin-top: 30px;
     height: 90vh;
   }
+  .main-intro_bottom {
+    width: 480px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -282,6 +285,7 @@ aside img {
   .intro-wrap {
     margin-top: -200px;
     width: 50%;
+    height: 60vh;
   }
 
   aside img {
