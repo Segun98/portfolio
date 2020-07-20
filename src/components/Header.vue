@@ -37,28 +37,21 @@
               </li>
               <span>
                 <li>
-                  <a
-                    href="https://github.com/segun98"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >GH</a
-                  >
+                  <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">GH</a>
                 </li>
                 <li>
                   <a
                     href="https://twitter.com/segun_os"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >TW</a
-                  >
+                  >TW</a>
                 </li>
                 <li>
                   <a
                     href="https://linkedin.com/in/segun-olanitori-b76275162"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >LN</a
-                  >
+                  >LN</a>
                 </li>
               </span>
             </ul>
@@ -77,13 +70,13 @@ export default {
     return {
       isClicked: false,
       Menu,
-      DarkImage,
+      DarkImage
     };
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    },
+    }
   },
   methods: {
     toggleHamburger() {
@@ -91,8 +84,8 @@ export default {
     },
     toggleDarkMode() {
       this.$store.commit("toggleDarkMode");
-    },
-  },
+    }
+  }
 };
 </script>
 

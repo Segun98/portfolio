@@ -7,9 +7,13 @@
         <div class="about-content">
           <p
             data-aos="fade-up"
+            :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
           >I am an internet taught front-end web developer with over a year of experience. I love to solve problems and learn new technologies.</p>
 
-          <p data-aos="fade-up">
+          <p
+            data-aos="fade-up"
+            :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
+          >
             I am interested in building solutions on the web with concern for Accessibility, Functionality, Responsiveness, Search Engine Optimization (SEO), Image Optimization, User Interface and Experience (UI/UX). I take Ligthhouse Report seriously. I wrote
             <a
               style="color:#ef4565"
@@ -21,10 +25,12 @@
 
           <p
             data-aos="fade-up"
+            :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
           >Technologies I look to learn this year include: Auth0, React Native, SQL & VueJS. In the future, I plan to learn a back-end programming language, most likely Ruby/ Ruby on Rails.</p>
 
           <p
             data-aos="fade-up"
+            :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
           >I am an ex-intern at HNG6 Internship as a front end developer. I am a Business Administration graduate (B.Sc).</p>
         </div>
       </div>
@@ -150,6 +156,7 @@ export default {
   .about-content p {
     line-height: 1.8;
     padding: 40px;
+    font-size: 1.1rem;
   }
 }
 

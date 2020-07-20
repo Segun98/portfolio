@@ -25,7 +25,11 @@
       </p>
       <h3>
         I got my Color Inspiration from
-        <a href="https://www.happyhues.co/">Happy Hues</a>
+        <a
+          href="https://www.happyhues.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Happy Hues</a>
       </h3>
     </footer>
   </div>

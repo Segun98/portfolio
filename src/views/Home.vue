@@ -257,6 +257,10 @@ aside img {
     margin-top: -100px;
   }
 
+  .main-intro p {
+    font-size: 1.1rem;
+  }
+
   .main-intro_bottom {
     width: 480px;
   }
