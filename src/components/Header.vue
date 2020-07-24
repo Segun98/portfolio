@@ -9,15 +9,19 @@
           </router-link>
         </div>
         <div class="darky" @click="toggleDarkMode">
-          <img :src="DarkImage" alt="dark mode switcher" />
+          <button>
+            <img :src="DarkImage" alt="dark mode switcher" />
+          </button>
         </div>
         <nav>
-          <img
-            :src="Menu"
-            alt="menu"
-            @click="toggleHamburger"
-            :class="{ 'open-hamburger': this.isClicked }"
-          />
+          <button class="menu-btn">
+            <img
+              :src="Menu"
+              alt="menu"
+              @click="toggleHamburger"
+              :class="{ 'open-hamburger': this.isClicked }"
+            />
+          </button>
           <aside :class="{ 'open-menu': this.isClicked }">
             <ul class="close">
               <li>
@@ -106,12 +110,21 @@ export default {
   position: relative;
 }
 
-.darky img {
+.darky button {
   position: absolute;
   top: 0;
   right: 0;
   margin-top: 13px;
-  margin-right: 60px;
+  margin-right: 70px;
+  /* color: #ef4565; */
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.darky img {
   color: #ef4565;
   width: 35px;
   height: 35px;
@@ -156,6 +169,9 @@ nav img {
   cursor: pointer;
   transition: ease 0.8s;
 }
+.menu-btn {
+  border: none;
+}
 
 nav aside {
   position: absolute;
@@ -198,9 +214,9 @@ nav ul span li a {
 }
 
 @media only screen and (min-width: 1200px) {
-  .darky img {
+  .darky button {
     margin-top: 20px;
-    margin-right: 70px;
+    margin-right: 80px;
   }
 }
 
@@ -209,9 +225,9 @@ nav ul span li a {
     width: 80%;
     padding-top: 30px;
   }
-  .darky img {
+  .darky button {
     margin-top: 30px;
-    margin-right: 80px;
+    margin-right: 90px;
   }
 }
 

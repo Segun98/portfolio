@@ -8,13 +8,13 @@
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >I am an internet taught front-end web developer with over a year of experience. I love to solve problems and learn new technologies.</p>
+          >I am a front-end web developer with over a year of experience. I love to solve problems and learn new technologies.</p>
 
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
           >
-            I am interested in building solutions on the web with concern for Accessibility, Functionality, Responsiveness, Search Engine Optimization (SEO), Image Optimization, User Interface and Experience (UI/UX). I take Ligthhouse Report seriously. I wrote
+            I am interested in building solutions on the web with concern for Accessibility, Functionality, Responsiveness, Search Engine Optimization (SEO), Image Optimization, User Interface and Experience (UI/UX). I take Lighthouse Report seriously. I wrote
             <a
               style="color:#ef4565"
               href="https://locallog.now.sh/post/how-i-got-into-tech---segun-olanitori"
@@ -43,8 +43,8 @@ export default {
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
-  }
+    },
+  },
 };
 </script>
 

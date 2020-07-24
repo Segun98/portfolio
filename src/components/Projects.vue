@@ -47,9 +47,7 @@
         </div>
       </div>
       <aside class="project-btn">
-        <a href="/projects/#top">
-          <button>All Projects</button>
-        </a>
+        <a href="/projects/#top">All Projects</a>
       </aside>
     </section>
   </div>
@@ -141,13 +139,13 @@ export default {
   width: 50%;
   text-align: center;
 }
-.projects button {
+.project-btn a {
   background: #ef4565;
   border: none;
   padding: 10px 20px;
 }
 
-.project-btn button {
+.project-btn a {
   color: #fffffe;
   font-weight: bold;
 }
@@ -159,7 +157,7 @@ export default {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-  .projects button {
+  .project-btn a {
     padding: 15px 30px;
   }
 }
@@ -184,7 +182,7 @@ export default {
   .projects-wrap {
     width: 60%;
   }
-  .projects button {
+  .project-btn a {
     font-size: 1rem;
     padding: 15px 50px;
   }

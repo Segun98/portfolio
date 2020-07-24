@@ -15,7 +15,7 @@
           />
         </aside>
         <aside>
-          <label for="name">Your Email</label>
+          <label for="email">Your Email</label>
           <input
             type="email"
             name="email"
@@ -26,7 +26,7 @@
           />
         </aside>
         <aside>
-          <label for="name">Message Body</label>
+          <label for="body">Message Body</label>
           <textarea
             name="body"
             id="body"

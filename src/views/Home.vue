@@ -13,9 +13,9 @@
       <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
           <h1 :class="{ 'color-change': this.isDark }">Frontend Developer.</h1>
-          <p :style="[this.isDark ? {'color': 'white'} : {}]">
-            I am an internet taught web developer interested in building user
-            friendly solutions on the web
+          <p :style="[this.isDark ? { color: 'white' } : {}]">
+            I am interested in building user friendly solutions on the web and I
+            love to learn new stuff.
           </p>
           <a href="/#contact">
             <button>Reach Out</button>
@@ -26,8 +26,7 @@
               experience.
             </small>
             <small>
-              Accessibility, performance, scalability, seo... are my
-              watchwords
+              Accessibility, performance, scalability, seo... are my watchwords
             </small>
           </div>
         </div>
@@ -81,13 +80,13 @@ export default {
     Skills,
     Projects,
     Contact,
-    Footer
+    Footer,
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
-  }
+    },
+  },
 };
 </script>
 <style scoped>
