@@ -6,7 +6,7 @@
         <div class="project-item" data-aos="fade-up">
           <img :src="Employeez" alt="the image of an app named Employeez" />
           <p>Employeez</p>
-          <h5>An Employee and Customer Management web application built with Reactjs...</h5>
+          <h5>An Employee and Customer Management web application built with Reactjs and Nodejs...</h5>
           <div class="project-span">
             <span>
               <a
@@ -47,7 +47,7 @@
         </div>
       </div>
       <aside class="project-btn">
-        <a href="/projects/#top">All Projects</a>
+        <a href="/projects#top">All Projects</a>
       </aside>
     </section>
   </div>
@@ -60,14 +60,14 @@ export default {
   data() {
     return {
       Employeez,
-      Locallog
+      Locallog,
     };
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -143,6 +143,7 @@ export default {
   background: #ef4565;
   border: none;
   padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .project-btn a {

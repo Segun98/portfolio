@@ -55,13 +55,13 @@ export default {
       message: "",
       name: "",
       email: "",
-      body: ""
+      body: "",
     };
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
+    },
   },
   methods: {
     async handleForm(e) {
@@ -71,7 +71,7 @@ export default {
         text: `${this.name},
 
 
-        ${this.body}`
+        ${this.body}`,
       };
       try {
         this.loading = true;
@@ -101,8 +101,8 @@ export default {
           }, 3000);
         }
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -143,11 +143,17 @@ form aside input {
   border: none;
   padding: 10px;
   z-index: 1;
+  border-radius: 10px;
+}
+
+form aside input:focus {
+  border: 1px solid var(--blue);
 }
 
 form aside textarea {
   padding: 10px;
   z-index: 1;
+  border-radius: 10px;
 }
 
 .contact-btn {
@@ -159,9 +165,7 @@ form aside textarea {
   background: #ef4565;
   border: none;
   padding: 10px 20px;
-}
-
-.contact-btn button {
+  border-radius: 10px;
   color: #fffffe;
   font-weight: bold;
 }
