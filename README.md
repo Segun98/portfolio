@@ -5,7 +5,11 @@
 #### Explored :
 
 > Vue Router
+
 > VueX
-> Form Hnadlind
+
+> Form Handling
+
 > Vue Directives
+
 > Vue lifecycle
