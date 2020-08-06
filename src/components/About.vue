@@ -26,7 +26,7 @@
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >Technologies I look to learn this year include: Auth0, React Native, SQL & VueJS. In the future, I plan to learn a back-end programming language, most likely Ruby/ Ruby on Rails.</p>
+          >Technologies I look to learn this year include: Auth0, SQL and React Native. In the future, I plan to learn a back-end programming language, most likely Ruby/ Ruby on Rails.</p>
 
           <p
             data-aos="fade-up"
