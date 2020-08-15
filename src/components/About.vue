@@ -14,19 +14,20 @@
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
           >
-            I am interested in building solutions on the web with concern for Accessibility, Functionality, Responsiveness, Search Engine Optimization (SEO), Image Optimization, User Interface and Experience (UI/UX). I take Lighthouse Report seriously. I wrote
+            I am interested in building solutions on the web with concern for Accessibility, Functionality, Responsiveness, Search Engine Optimization (SEO), Image Optimization, User Interface and Experience (UI/UX). I take Lighthouse Report seriously.
+            <!-- I wrote
             <a
               style="color:#ef4565"
               href="https://locallog.now.sh/post/how-i-got-into-tech---segun-olanitori"
               target="_blank"
               rel="noopener noreferrer"
-            >How I Got Into Tech</a>
+            >How I Got Into Tech</a>-->
           </p>
 
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >Technologies I look to learn this year include: Auth0, SQL and React Native. In the future, I plan to learn a back-end programming language, most likely Ruby/ Ruby on Rails.</p>
+          >Technologies I look to learn this year include: Auth0 and React Native. In the future, I plan to learn a back-end programming language/framework, most likely PHP/Laravel, Ruby/ Ruby on Rails or Python/Django. Send me a message in the contact form below and help me decide :-).</p>
 
           <p
             data-aos="fade-up"

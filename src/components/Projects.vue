@@ -1,12 +1,12 @@
 <template>
   <div>
     <section class="projects" :class="{'darkMode': this.isDark}">
-      <h2 :class="{ 'color-change': this.isDark }">Projects</h2>
+      <h2 :class="{ 'color-change': this.isDark }">Projects.</h2>
       <div class="projects-wrap">
         <div class="project-item" data-aos="fade-up">
           <img :src="Employeez" alt="the image of an app named Employeez" />
           <p>Employeez</p>
-          <h5>An Employee and Customer Management web application built with Reactjs and Nodejs...</h5>
+          <h5>An Employee and Customer Management web application built with Typescript, Reactjs and Nodejs...</h5>
           <div class="project-span">
             <span>
               <a

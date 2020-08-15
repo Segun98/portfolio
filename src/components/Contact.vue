@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="contact" id="contact">
-      <h2 :class="{ 'color-change': this.isDark }">Contact</h2>
+      <h2 :class="{ 'color-change': this.isDark }">Contact.</h2>
       <form @submit="handleForm">
         <aside>
           <label for="name">Your Name</label>

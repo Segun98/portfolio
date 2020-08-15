@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="skills" :class="{'darkMode': this.isDark}" id="skills">
-      <h2 :class="{ 'color-change': this.isDark }">Skills</h2>
+      <h2 :class="{ 'color-change': this.isDark }">Skills.</h2>
       <div class="skills-wrap">
         <div class="skills-card" data-aos="fade-up">
           <h3>Front End</h3>
@@ -13,7 +13,7 @@
             <p>Reactjs</p>
             <p>Nextjs</p>
             <p>Redux</p>
-            <p class="new-skill">Vuejs</p>
+            <p class="new-skill">Vuejs/VueX</p>
           </aside>
         </div>
         <div class="skills-card" data-aos="fade-up">
@@ -21,6 +21,7 @@
           <aside>
             <p>Nodejs</p>
             <p>Expressjs</p>
+            <p>PostgreSQL</p>
             <p>MongoDB</p>
           </aside>
         </div>
@@ -57,8 +58,8 @@ export default {
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
-  }
+    },
+  },
 };
 </script>
 
