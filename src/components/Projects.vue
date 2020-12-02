@@ -1,47 +1,60 @@
 <template>
   <div>
-    <section class="projects" :class="{'darkMode': this.isDark}">
+    <section class="projects" :class="{ darkMode: this.isDark }">
       <h2 :class="{ 'color-change': this.isDark }">Projects.</h2>
       <div class="projects-wrap">
         <div class="project-item" data-aos="fade-up">
+          <img :src="PartyStore" alt="PartyStore" />
+          <p>Partystore</p>
+          <h5>
+            A "Full-Featured" E-commerce website built with TypeScript, Nextjs,
+            Node/ExpressJS, GraphQL and PostgreSQL...
+          </h5>
+          <div class="project-span">
+             <span>
+<a href="/partystore#top">Read More...</a>
+            </span>
+            <span>
+              <a
+                href="https://partystore.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Preview</a
+              >
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/e-commerce"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github Repo</a
+              >
+            </span>
+          </div>
+        </div>
+        <div class="project-item" data-aos="fade-up">
           <img :src="Employeez" alt="the image of an app named Employeez" />
           <p>Employeez</p>
-          <h5>An Employee and Customer Management web application built with Typescript, Reactjs and Nodejs...</h5>
+          <h5>
+            An Employee and Customer Management web application built with
+            Typescript, Reactjs and Nodejs...
+          </h5>
           <div class="project-span">
             <span>
               <a
                 href="https://employeez.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/employeez"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
-            </span>
-          </div>
-        </div>
-        <div class="project-item" data-aos="fade-up">
-          <img :src="Locallog" alt="the image of an app named Employeez" />
-          <p>Locallog</p>
-          <h5>An online publishing platform built with Nextjs and GraphQL..</h5>
-          <div class="project-span">
-            <span>
-              <a
-                href="https://locallog.now.sh"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Live Preview</a>
-            </span>
-            <span>
-              <a
-                href="https://github.com/Segun98/locallog"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -55,12 +68,12 @@
 
 <script>
 import Employeez from "../assets/employeezapp.png";
-import Locallog from "../assets/locallog.png";
+import PartyStore from "../assets/partystore/p10.png";
 export default {
   data() {
     return {
       Employeez,
-      Locallog,
+      PartyStore,
     };
   },
   computed: {
@@ -71,7 +84,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 .projects {
   background: #d8eefe;
   padding: 40px 0;

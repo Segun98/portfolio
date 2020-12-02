@@ -161,6 +161,7 @@ export default {
 
 nav {
   position: relative;
+  z-index: 9999;
 }
 
 nav img {
