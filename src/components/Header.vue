@@ -41,21 +41,37 @@
               </li>
               <span>
                 <li>
-                  <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">GH</a>
+                  <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer"><img :src="Github" alt="my Github profile"></a>
+                  <!-- <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">GH</a> -->
                 </li>
                 <li>
                   <a
                     href="https://twitter.com/segun_os"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >TW</a>
+                  >
+                  <img :src="Twitter" alt="my Twitter profile">
+                  </a>
+                  <!-- <a
+                    href="https://twitter.com/segun_os"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >TW</a> -->
                 </li>
                 <li>
                   <a
                     href="https://linkedin.com/in/segun-olanitori-b76275162"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >LN</a>
+                  >
+                  <img :src="Linkedin" alt="my Linkedin profile">
+                  
+                  </a>
+                  <!-- <a
+                    href="https://linkedin.com/in/segun-olanitori-b76275162"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >LN</a> -->
                 </li>
               </span>
             </ul>
@@ -69,12 +85,18 @@
 <script>
 import Menu from "../assets/icons8-menu.svg";
 import DarkImage from "../assets/30466.svg";
+import Github from "../assets/icons8-github.svg"
+import Twitter from "../assets/twitter.svg"
+import Linkedin from "../assets/icons8-linkedin.svg"
 export default {
   data() {
     return {
       isClicked: false,
       Menu,
-      DarkImage
+      DarkImage,
+      Github,
+      Twitter,
+      Linkedin
     };
   },
   computed: {
@@ -208,9 +230,15 @@ nav ul li a {
 
 nav ul span {
   display: flex;
+  justify-content: space-around;
+}
+
+nav ul span img {
+  height: 20px;
+  width: 50px;
 }
 nav ul span li a {
-  margin: 0 5px;
+  /* margin: 0 5px; */
   color: #094067;
 }
 
@@ -219,6 +247,11 @@ nav ul span li a {
     margin-top: 20px;
     margin-right: 80px;
   }
+
+  nav ul span img {
+  height: 30px;
+  width: 50px;
+}
 }
 
 @media only screen and (min-width: 1400px) {
