@@ -14,7 +14,7 @@
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
           >
-            I am interested in building solutions on the web with concern for Accessibility, Functionality, Responsiveness, Search Engine Optimization (SEO), Image Optimization, User Interface and Experience (UI/UX). I take Lighthouse Report seriously.
+            I am interested in building solutions on the web with concern for Performance, Accessibility, Functionality, Responsiveness, SEO, Image Optimization, UI/UX. I take Lighthouse Report seriously.
             <!-- I wrote
             <a
               style="color:#ef4565"
@@ -27,7 +27,7 @@
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >Technologies I look to learn this year include: Auth0 and React Native. In the future, I plan to learn a back-end programming language/framework, most likely PHP/Laravel, Ruby/ Ruby on Rails or Python/Django. Send me a message in the contact form below and help me decide :-).</p>
+          >I am currently working on getting better at JavaScript with Algorithms and Data Structures. I plan to learn a back-end programming language/framework, most likely PHP/Laravel, Python/Django or Java/SpringBoot. Send me a message in the contact form below and help me decide :-).</p>
 
           <p
             data-aos="fade-up"
