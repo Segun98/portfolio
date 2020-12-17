@@ -20,11 +20,11 @@
  </section>
 
  <section class="partystore-about">
-<p :class="{'light': this.isDark}">PartyStore is an e-commerce website I built from scratch from design to front end and back end implementation. I built it mainly to improve my skills and build up my portfolio. This project taught me the importance of design and planning a project architecture before writing a line of code, my knowledge on user experience, accessibility and performance was also improved upon significantly.
+<p :class="{'light': this.isDark}">PartyStore is an e-commerce website I built from scratch from design to front end and back end implementation. I built it mainly to improve my skills and build up my portfolio. This project taught me the importance of design and planning a project's architecture before writing a line of code, my knowledge on user experience, accessibility and performance was also improved upon significantly.
 </p>
 <br>
 <p :class="{'light': this.isDark}">
-Some techologies I used on this project are:
+Some techologies I used on this project:
 
 <ul>
     <li>
@@ -72,7 +72,7 @@ ReactJS, NextJS
 <aside>
     <h3>Customer</h3>
     <p :class="{'light': this.isDark}">
-    Customers can add to cart, save products, login easily with Google, manage their orders and do many more!
+    Customers can add to cart, save products, login easily with Google, manage their orders, pay with Paystack and do many more!
     </p>
     <figure>
     <img :src="Login" alt="login">
@@ -99,7 +99,7 @@ ReactJS, NextJS
 </aside>
 <br>
 <p :class="{'light': this.isDark}">
-    This website is responsive and the front end is hosted on Vercel, while the backend and database are hosted on Heroku.
+    This website is a work-in-progress and it's responsive. The Front end is hosted on Vercel, while the backend and database are hosted on Heroku.
 </p>
 <br>
 <br>
@@ -173,7 +173,7 @@ export default {
       image:require('@/assets/partystore/p10.png'),
     },
     {
-      image:require('@/assets/partystore/p2.png'),
+      image:require('@/assets/partystore/p6.png'),
     },
     {
       image:require('@/assets/partystore/p4.png'),

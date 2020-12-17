@@ -8,13 +8,13 @@
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >I am a front-end web developer with over a year of experience. I love to solve problems and learn new technologies.</p>
+          >I am a front-end web developer with ~2yrs of experience. I love to solve problems and learn new technologies.</p>
 
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
           >
-            I am interested in building solutions on the web with concern for Performance, Accessibility, Functionality, Responsiveness, SEO, Image Optimization, UI/UX. I take Lighthouse Report seriously.
+            I am interested in building solutions on the web with concern for Performance, Accessibility, Responsiveness, SEO, Image Optimization and UI/UX. I take Lighthouse Report seriously.
             <!-- I wrote
             <a
               style="color:#ef4565"
@@ -27,12 +27,12 @@
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >I am currently working on getting better at JavaScript with Algorithms and Data Structures. I plan to learn a back-end programming language/framework, most likely PHP/Laravel, Python/Django or Java/SpringBoot. Send me a message in the contact form below and help me decide :-).</p>
+          >I am currently working on getting better at JavaScript with Algorithms and Data Structures. I plan to learn a back-end programming language/framework, most likely PHP/Laravel.</p>
 
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >I am an ex-intern at HNG6 Internship as a front end developer. I am a Business Administration graduate (B.Sc).</p>
+          >I am an ex-intern at HNG6 Internship as a front end developer and a Business Administration graduate (B.Sc).</p>
         </div>
       </div>
     </section>
