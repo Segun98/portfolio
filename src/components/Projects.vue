@@ -8,7 +8,7 @@
           <p>Partystore</p>
           <h5>
             A "Full-Featured" E-commerce website built with TypeScript, Nextjs,
-            Node/ExpressJS, GraphQL and PostgreSQL...
+            Node/ExpressJS, GraphQL, PostgreSQL, Paystack API...
           </h5>
           <div class="project-span">
              <span>

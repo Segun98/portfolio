@@ -8,6 +8,9 @@
         <small class="particles-item">user experience</small>
         <small class="particles-item">responsive design</small>
         <small class="particles-item">performance</small>
+        <small class="particles-item">&#8226; react </small>
+        <small class="particles-item">&#8226; vue</small>
+        <small class="particles-item">&#8226; graphql</small>
         <small class="particles-item">best practices</small>
       </div>
       <div class="intro-wrap" id="intro">
@@ -130,6 +133,21 @@ main {
   left: 30%;
   top: 350px;
   transform: rotate(60deg);
+}
+.particles-item:nth-child(6) {
+  left: 60%;
+  top: 350px;
+  transform: rotate(45deg);
+}
+.particles-item:nth-child(7) {
+  left: 75%;
+  top: 250px;
+  transform: rotate(30deg);
+}
+.particles-item:nth-child(8) {
+  left: 10%;
+  top: 350px;
+  transform: rotate(-15deg);
 }
 
 .particles-item:last-child {

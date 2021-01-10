@@ -21,6 +21,7 @@
             <p>SASS / Chakra UI</p>
             <p>Nodejs/Expressjs</p>
             <p>PostgreSQL</p>
+            <p>PayStack API</p>
           </div>
           <div class="project-page-span">
             <span>

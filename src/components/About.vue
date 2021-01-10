@@ -27,7 +27,7 @@
           <p
             data-aos="fade-up"
             :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >I am currently working on getting better at JavaScript with Algorithms and Data Structures. I plan to learn a back-end programming language/framework, most likely PHP/Laravel.</p>
+          >I am currently working on getting better at JavaScript with Algorithms and Data Structures. I plan to learn another back-end programming language/framework, most likely PHP/Laravel.</p>
 
           <p
             data-aos="fade-up"

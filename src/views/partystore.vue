@@ -20,11 +20,11 @@
  </section>
 
  <section class="partystore-about">
-<p :class="{'light': this.isDark}">PartyStore is an e-commerce website I built from scratch from design to front end and back end implementation. I built it mainly to improve my skills and build up my portfolio. This project taught me the importance of design and planning a project's architecture before writing a line of code, my knowledge on user experience, accessibility and performance was also improved upon significantly.
+<p :class="{'light': this.isDark}">PartyStore is an e-commerce website I built from scratch from design to front end and back end implementation. I built it mainly to improve my skills and build up my portfolio. This project revealed the importance of design and planning a project's architecture before writing a line of code, my knowledge on user experience, accessibility and performance was also improved upon significantly.
 </p>
 <br>
 <p :class="{'light': this.isDark}">
-Some techologies I used on this project:
+Some techologies/tools I used on this project:
 
 <ul>
     <li>
@@ -49,7 +49,7 @@ ReactJS, NextJS
 </p>
 <br>
 <p :class="{'light': this.isDark}">
-    PartyStore has layout provisions for customers, vendors, admin and super admin. Exactly what you see in a real world e-commerce website.
+    PartyStore has layout provisions for customers, vendors, admin and super admin, Customers can go all the way to paying with Paystack test payment, it's exactly what you see in a real world e-commerce website.
 </p>
 
 <aside>
