@@ -265,6 +265,9 @@ aside img {
 }
 
 @media only screen and (min-width: 1200px) {
+  .particles-item {
+  font-size: 13px;
+}
   .intro-wrap {
     margin-top: 0px;
     grid-template-columns: 2fr 1fr;
