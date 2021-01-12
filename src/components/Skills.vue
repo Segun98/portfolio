@@ -44,8 +44,9 @@
           <h3>Taking Lessons</h3>
           <aside>
             <p>SQL</p>
-            <p>Auth0</p>
             <p>Vuejs</p>
+            <p>Laravel</p>
+            <p>NestJS</p>
           </aside>
         </div>
       </div>
