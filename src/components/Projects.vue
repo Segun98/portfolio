@@ -59,8 +59,8 @@
           </div>
         </div>
       </div>
-      <aside class="project-btn">
-        <a href="/projects#top">All Projects</a>
+      <aside class="project-btn" role="link" @click="toTop">
+        <a>All Projects</a>
       </aside>
     </section>
   </div>
@@ -79,6 +79,11 @@ export default {
   computed: {
     isDark() {
       return this.$store.getters.darkState;
+    },
+  },
+  methods: {
+    toTop() {
+      this.$router.push("/projects").then(() => window.scrollTo(0, 0));
     },
   },
 };
@@ -151,6 +156,7 @@ export default {
   margin: 20px auto;
   width: 50%;
   text-align: center;
+  cursor: pointer;
 }
 .project-btn a {
   background: #ef4565;
