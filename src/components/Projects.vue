@@ -4,19 +4,19 @@
       <h2 :class="{ 'color-change': this.isDark }">Projects.</h2>
       <div class="projects-wrap">
         <div class="project-item" data-aos="fade-up">
-          <img :src="PartyStore" alt="PartyStore" />
-          <p>Partystore</p>
+          <img :src="Tadlace" alt="Tadlace" />
+          <p>Tadlace</p>
           <h5>
-            A "Full-Featured" E-commerce website built with TypeScript, Nextjs,
-            Node/ExpressJS, GraphQL, PostgreSQL, Paystack API...
+            A "full-featured" multi vendor e-commerce website built with TypeScript, Nextjs,
+            Node/ExpressJS, GraphQL, PostgreSQL, Paystack and Flutterwave API...
           </h5>
           <div class="project-span">
              <span>
-<a href="/partystore#top">Read More...</a>
+<a href="/tadlace#top">Read More...</a>
             </span>
             <span>
               <a
-                href="https://partystore.vercel.app"
+                href="https://tadlace.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Live Preview</a
@@ -68,12 +68,12 @@
 
 <script>
 import Employeez from "../assets/employeezapp.png";
-import PartyStore from "../assets/partystore/p10.png";
+import Tadlace from "../assets/tadlace/p10.png";
 export default {
   data() {
     return {
       Employeez,
-      PartyStore,
+      Tadlace,
     };
   },
   computed: {

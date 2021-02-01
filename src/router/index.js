@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import ProjectsPage from '../views/ProjectsPage.vue'
-import PartyStore from "../views/partystore"
+import Tadlace from "../views/Tadlace"
 
 Vue.use(VueRouter)
 
@@ -20,7 +20,13 @@ const routes = [{
   {
     path: '/partystore',
     name: 'Party Store',
-    component: PartyStore,
+    component: () => import('../views/partystore')
+
+  },
+  {
+    path: '/tadlace',
+    name: 'Tadlace',
+    component: Tadlace,
   },
   {
     path: '*',

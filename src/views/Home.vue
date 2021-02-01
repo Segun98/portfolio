@@ -8,9 +8,9 @@
         <small class="particles-item">user experience</small>
         <small class="particles-item">responsive design</small>
         <small class="particles-item">performance</small>
-        <small class="particles-item">&#8226; react </small>
-        <small class="particles-item">&#8226; vue</small>
-        <small class="particles-item">&#8226; graphql</small>
+        <!-- <small class="particles-item">&#8226; react </small> -->
+        <!-- <small class="particles-item">&#8226; vue</small> -->
+        <!-- <small class="particles-item">&#8226; graphql</small> -->
         <small class="particles-item">best practices</small>
       </div>
       <div class="intro-wrap" id="intro">
@@ -134,7 +134,7 @@ main {
   top: 350px;
   transform: rotate(60deg);
 }
-.particles-item:nth-child(6) {
+/* .particles-item:nth-child(6) {
   left: 60%;
   top: 350px;
   transform: rotate(45deg);
@@ -148,7 +148,7 @@ main {
   left: 10%;
   top: 350px;
   transform: rotate(-15deg);
-}
+} */
 
 .particles-item:last-child {
   left: 100px;

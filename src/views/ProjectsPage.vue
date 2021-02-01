@@ -8,11 +8,11 @@
       <h2 :class="{ 'color-change': this.isDark }">Some Of My Projects</h2>
       <div class="projects-page-wrap">
       <div class="project-page-item" data-aos="fade-up">
-          <img :src="PartyStore" alt="Partystore" />
-          <p>PartyStore</p>
-          <h5>An e-commerce website that accepts vendors, customers, admin and "super admin"</h5>
+          <img :src="Tadlace" alt="Tadlace" />
+          <p>Tadlace</p>
+          <h5>A "full-featured" multi vendor e-commerce website</h5>
           <aside class="ecom-link">
-           <router-link to="/partystore">Click here for more on this project...</router-link>
+           <router-link to="/tadlace">Click here for more on this project...</router-link>
           </aside>
           <div class="tech-used">
             <p>Typescript</p>
@@ -26,7 +26,7 @@
           <div class="project-page-span">
             <span>
               <a
-                href="https://partystore.vercel.app"
+                href="https://tadlace.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >Live Preview</a>
@@ -285,7 +285,7 @@ import Manage from "../assets/manage-page.png";
 import Quiz from "../assets/quiz-app-sc.png";
 import Cart from "../assets/cart-project.png";
 import Youtube from "../assets/youtube-clone.png";
-import PartyStore from "@/assets/partystore/p10.png";
+import Tadlace from "@/assets/tadlace/p10.png";
 
 export default {
   components: {
@@ -302,7 +302,7 @@ export default {
       Quiz,
       Cart,
       Youtube,
-      PartyStore
+      Tadlace
     };
   },
   computed: {
