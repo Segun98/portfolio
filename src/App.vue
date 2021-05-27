@@ -9,7 +9,8 @@ export default {};
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
 
 :root {
   --blue: #3da9fc;
@@ -26,7 +27,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Bai Jamjuree", sans-serif;
+  /* font-family: "Bai Jamjuree", sans-serif; */
+    font-family: "Quicksand", sans-serif !important;
   overflow-x: hidden;
 }
 /* headings color change in dark mode  */
