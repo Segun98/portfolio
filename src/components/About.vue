@@ -1,20 +1,29 @@
 <template>
   <div>
-    <section class="about" :class="{'darkMode': this.isDark}" id="about">
+    <section class="about" :class="{ darkMode: this.isDark }" id="about">
       <h2 :class="{ 'color-change': this.isDark }">About Me.</h2>
       <div class="about-wrap">
         <img src="undraw_profile_6l1l.svg" alt="about me image" />
         <div class="about-content">
           <p
             data-aos="fade-up"
-            :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >I am a front-end web developer with ~2yrs of experience. I love to solve problems and learn new technologies.</p>
+            :style="[
+              this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
+            ]"
+          >
+            I am a front-end web developer with ~2yrs of experience. I love to
+            solve problems and learn new technologies.
+          </p>
 
           <p
             data-aos="fade-up"
-            :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
+            :style="[
+              this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
+            ]"
           >
-            I am interested in building solutions on the web with concern for Performance, Accessibility, Responsiveness, SEO, Image Optimization and UI/UX. I take Lighthouse Report seriously.
+            I am interested in building solutions on the web with concern for
+            Performance, Accessibility, Responsiveness, SEO, Image Optimization
+            and UI/UX. I take Lighthouse Report seriously.
             <!-- I wrote
             <a
               style="color:#ef4565"
@@ -26,13 +35,24 @@
 
           <p
             data-aos="fade-up"
-            :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >I am currently working on getting better at JavaScript with Algorithms and Data Structures. I plan to learn another back-end programming language/framework, most likely PHP/Laravel.</p>
+            :style="[
+              this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
+            ]"
+          >
+            I am currently working on getting better at JavaScript with
+            Algorithms and Data Structures and diving deeper into JavaScript
+            fullstack development.
+          </p>
 
           <p
             data-aos="fade-up"
-            :style="[this.isDark ? {'color': 'white', 'background': '#0c0c0c'} : {}]"
-          >I am an ex-intern at HNG6 Internship as a front end developer and a Business Administration graduate (B.Sc).</p>
+            :style="[
+              this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
+            ]"
+          >
+            I am an ex-intern at HNG6 Internship as a front end developer and a
+            Business Administration graduate (B.Sc).
+          </p>
         </div>
       </div>
     </section>
