@@ -99,6 +99,10 @@ main {
 }
 
 /* particles styles  */
+
+.particles {
+  display: none;
+}
 .particles-item {
   color: #ef4565;
   position: fixed;
@@ -266,8 +270,8 @@ aside img {
 
 @media only screen and (min-width: 1200px) {
   .particles-item {
-  font-size: 13px;
-}
+    font-size: 13px;
+  }
   .intro-wrap {
     margin-top: 0px;
     grid-template-columns: 2fr 1fr;
@@ -276,7 +280,9 @@ aside img {
   aside {
     margin-top: -100px;
   }
-
+  aside img {
+    margin-top: 70px;
+  }
   .main-intro p {
     font-size: 1.1rem;
   }
@@ -294,7 +300,9 @@ aside img {
   .main-intro h1 {
     font-size: 3.5rem;
   }
-
+  aside img {
+    margin-top: 100px;
+  }
   .main-intro p {
     font-size: 1.3rem;
     margin: 25px 0;

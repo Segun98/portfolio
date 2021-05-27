@@ -194,6 +194,7 @@ nav img {
 }
 .menu-btn {
   border: none;
+  background: none;
 }
 
 nav aside {
