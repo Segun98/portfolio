@@ -7,12 +7,13 @@
           <img :src="Tadlace" alt="Tadlace" />
           <p>Tadlace</p>
           <h5>
-            A "full-featured" multi vendor e-commerce website built with TypeScript, Nextjs,
-            Node/ExpressJS, GraphQL, PostgreSQL, Paystack and Flutterwave API...
+            A "full-featured" multi vendor e-commerce website built with
+            TypeScript, Nextjs, Node/ExpressJS, GraphQL, PostgreSQL, Paystack
+            and Flutterwave API...
           </h5>
           <div class="project-span">
-             <span>
-<a href="/tadlace#top">Read More...</a>
+            <span>
+              <a href="/tadlace#top">Read More...</a>
             </span>
             <span>
               <a

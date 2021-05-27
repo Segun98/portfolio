@@ -41,7 +41,12 @@
               </li>
               <span>
                 <li>
-                  <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer"><img :src="Github" alt="my Github profile"></a>
+                  <a
+                    href="https://github.com/segun98"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img :src="Github" alt="my Github profile"
+                  /></a>
                   <!-- <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">GH</a> -->
                 </li>
                 <li>
@@ -50,7 +55,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                  <img :src="Twitter" alt="my Twitter profile">
+                    <img :src="Twitter" alt="my Twitter profile" />
                   </a>
                   <!-- <a
                     href="https://twitter.com/segun_os"
@@ -64,8 +69,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                  <img :src="Linkedin" alt="my Linkedin profile">
-                  
+                    <img :src="Linkedin" alt="my Linkedin profile" />
                   </a>
                   <!-- <a
                     href="https://linkedin.com/in/segun-olanitori-b76275162"
@@ -85,9 +89,9 @@
 <script>
 import Menu from "../assets/icons8-menu.svg";
 import DarkImage from "../assets/30466.svg";
-import Github from "../assets/icons8-github.svg"
-import Twitter from "../assets/twitter.svg"
-import Linkedin from "../assets/icons8-linkedin.svg"
+import Github from "../assets/icons8-github.svg";
+import Twitter from "../assets/twitter.svg";
+import Linkedin from "../assets/icons8-linkedin.svg";
 export default {
   data() {
     return {
@@ -96,13 +100,13 @@ export default {
       DarkImage,
       Github,
       Twitter,
-      Linkedin
+      Linkedin,
     };
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
+    },
   },
   methods: {
     toggleHamburger() {
@@ -110,8 +114,8 @@ export default {
     },
     toggleDarkMode() {
       this.$store.commit("toggleDarkMode");
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -144,6 +148,10 @@ export default {
   cursor: pointer;
   background: none;
   border: none;
+}
+
+.darky button:hover {
+  background: none !important;
 }
 
 .darky img {
@@ -195,6 +203,10 @@ nav img {
 .menu-btn {
   border: none;
   background: none;
+}
+
+.menu-btn:hover {
+  background: none !important;
 }
 
 nav aside {
@@ -250,9 +262,9 @@ nav ul span li a {
   }
 
   nav ul span img {
-  height: 30px;
-  width: 50px;
-}
+    height: 30px;
+    width: 50px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
