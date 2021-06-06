@@ -21,9 +21,9 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am interested in building solutions on the web with concern for
-            Performance, Accessibility, Responsiveness, SEO, Image Optimization
-            and UI/UX. I take Lighthouse Report seriously.
+            I am interested in building solutions on the web that solve real
+            world problems, showing concern for UX, DX and performance. I take
+            Lighthouse Report seriously.
             <!-- I wrote
             <a
               style="color:#ef4565"
