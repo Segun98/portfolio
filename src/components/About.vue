@@ -22,8 +22,7 @@
             ]"
           >
             I am interested in building web applications that solve real world
-            problems, showing concern for UX, DX and performance. I take
-            Lighthouse Report seriously.
+            problems, showing concern for UX, DX and performance.
             <!-- I wrote
             <a
               style="color:#ef4565"

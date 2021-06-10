@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="skills" :class="{'darkMode': this.isDark}" id="skills">
+    <section class="skills" :class="{ darkMode: this.isDark }" id="skills">
       <h2 :class="{ 'color-change': this.isDark }">Skills.</h2>
       <div class="skills-wrap">
         <div class="skills-card" data-aos="fade-up">
@@ -43,10 +43,10 @@
         <div class="skills-card" data-aos="fade-up">
           <h3>Taking Lessons</h3>
           <aside>
-            <p>SQL</p>
             <p>Vuejs</p>
             <p>Laravel</p>
             <p>NestJS</p>
+            <p>Kotlin</p>
           </aside>
         </div>
       </div>
