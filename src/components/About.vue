@@ -11,8 +11,10 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am a front-end web developer with ~2yrs of experience. I love to
-            solve problems and learn new technologies.
+            I have spent the last 2yrs learning and improving my skills by
+            building different projects on the web, including 6 months of
+            professional experience. I love to solve problems and learn new
+            technologies.
           </p>
 
           <p
