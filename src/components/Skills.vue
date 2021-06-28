@@ -44,9 +44,9 @@
           <h3>Taking Lessons</h3>
           <aside>
             <p>Vuejs</p>
-            <p>Laravel</p>
-            <p>NestJS</p>
             <p>Kotlin</p>
+            <p>NestJS</p>
+            <!-- <p>Laravel</p> -->
           </aside>
         </div>
       </div>

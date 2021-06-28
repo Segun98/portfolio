@@ -41,7 +41,7 @@
           >
             I am currently working on getting better at JavaScript with
             Algorithms and Data Structures and diving deeper into JavaScript
-            fullstack development.
+            fullstack development. And oh, I am learning Kotlin.
           </p>
 
           <p
