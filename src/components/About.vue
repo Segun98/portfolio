@@ -23,7 +23,9 @@
             ]"
           >
             I am interested in building web applications that solve real world
-            problems, showing concern for UX, DX and performance.
+            problems, showing concern for UX, DX and performance. I have built
+            mostly interactive data dashboards, including maps and all kinds of
+            charts, in my profesional experience.
             <!-- I wrote
             <a
               style="color:#ef4565"
