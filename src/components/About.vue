@@ -26,13 +26,17 @@
             problems, showing concern for UX, DX and performance. I have built
             mostly interactive data dashboards, including maps and all kinds of
             charts, in my profesional experience.
-            <!-- I wrote
-            <a
-              style="color:#ef4565"
-              href="https://locallog.now.sh/post/how-i-got-into-tech---segun-olanitori"
-              target="_blank"
-              rel="noopener noreferrer"
-            >How I Got Into Tech</a>-->
+            <br />
+            <strong>
+              I write occassionaly on
+              <a
+                href="https://dev.to/segun98"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                dev.to
+              </a>
+            </strong>
           </p>
 
           <p

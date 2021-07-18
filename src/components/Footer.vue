@@ -3,17 +3,37 @@
     <footer>
       <ul>
         <li>
-          <a href="https://github.com/segun98" target="_blank" rel="noopener noreferrer">Github</a>
+          <a
+            href="https://github.com/segun98"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Github</a
+          >
         </li>
         <li>
-          <a href="https://twitter.com/segun_os" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a
+            href="https://dev.to/segun98"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            dev.to
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/segun_os"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Twitter</a
+          >
         </li>
         <li>
           <a
             href="https://linkedin.com/in/segun-olanitori-b76275162"
             target="_blank"
             rel="noopener noreferrer"
-          >LinkedIn</a>
+            >LinkedIn</a
+          >
         </li>
       </ul>
       <p>
@@ -29,7 +49,8 @@
           href="https://www.happyhues.co/"
           target="_blank"
           rel="noopener noreferrer"
-        >Happy Hues</a>
+          >Happy Hues</a
+        >
       </h3>
     </footer>
   </div>
@@ -37,7 +58,7 @@
 
 <script>
 export default {
-  props: ["top"]
+  props: ["top"],
 };
 </script>
 

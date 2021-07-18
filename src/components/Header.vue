@@ -51,6 +51,16 @@
                 </li>
                 <li>
                   <a
+                    href="https://dev.to/segun98"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img :src="Dev" alt="Dev To Profile" />
+                  </a>
+                </li>
+
+                <li>
+                  <a
                     href="https://twitter.com/segun_os"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -92,6 +102,8 @@ import DarkImage from "../assets/30466.svg";
 import Github from "../assets/icons8-github.svg";
 import Twitter from "../assets/twitter.svg";
 import Linkedin from "../assets/icons8-linkedin.svg";
+import Dev from "../assets/devto.svg";
+
 export default {
   data() {
     return {
@@ -101,6 +113,7 @@ export default {
       Github,
       Twitter,
       Linkedin,
+      Dev,
     };
   },
   computed: {
@@ -262,8 +275,8 @@ nav ul span li a {
   }
 
   nav ul span img {
-    height: 30px;
-    width: 50px;
+    height: 25px;
+    width: 40px;
   }
 }
 
