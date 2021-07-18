@@ -197,6 +197,10 @@ export default {
   .projects button {
     padding: 15px 40px;
   }
+
+  .projects aside.project-btn {
+    margin-top: 40px;
+  }
 }
 
 @media only screen and (min-width: 2000px) {
