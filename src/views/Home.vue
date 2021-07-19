@@ -261,7 +261,7 @@ aside img {
 @media only screen and (min-width: 1000px) {
   .intro-wrap {
     margin-top: 30px;
-    height: 90vh;
+    height: 50vh;
   }
   .main-intro_bottom {
     width: 480px;
@@ -275,6 +275,7 @@ aside img {
   .intro-wrap {
     margin-top: 0px;
     grid-template-columns: 2fr 1fr;
+    height: 90vh;
   }
 
   aside {

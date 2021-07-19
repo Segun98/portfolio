@@ -79,7 +79,7 @@ export default {
 .about {
   transition: 0.5s ease-in-out;
   background: #d8eefe;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 .darkMode {
   background: rgb(21, 32, 43);
@@ -90,7 +90,7 @@ export default {
 }
 .about h2 {
   text-align: center;
-  margin: 20px 0;
+  margin: 5px 0;
   color: #094067;
   font-weight: bold;
   transition: 0.5s ease-in-out;
@@ -146,7 +146,7 @@ export default {
 
 @media only screen and (min-width: 1000px) {
   .about h2 {
-    margin-top: 100px;
+    margin-top: 10px;
   }
 
   .about-wrap {
@@ -164,7 +164,7 @@ export default {
     padding-bottom: 50px;
   }
   .about h2 {
-    margin-top: 10px;
+    margin: 30px 0;
   }
 
   .about-wrap {
