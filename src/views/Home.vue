@@ -266,6 +266,10 @@ aside img {
   .main-intro_bottom {
     width: 480px;
   }
+
+  aside img {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -282,6 +286,7 @@ aside img {
     margin-top: -100px;
   }
   aside img {
+    display: block;
     margin-top: 70px;
   }
   .main-intro p {
