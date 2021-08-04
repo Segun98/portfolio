@@ -20,7 +20,7 @@
           <h3>Back End</h3>
           <aside>
             <p>Nodejs</p>
-            <p>Expressjs/Fastfy</p>
+            <p>Expressjs/Fastify</p>
             <p>NestJS</p>
             <p>PostgreSQL</p>
             <p>Knex/TypeORM</p>
