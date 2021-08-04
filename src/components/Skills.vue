@@ -8,11 +8,11 @@
           <aside>
             <p>HTML</p>
             <p>CSS/SASS</p>
-            <p>JavaScript</p>
-            <p>TypeScript</p>
+            <p>TypeScript/JavaScript</p>
             <p>Reactjs</p>
+            <p>ChakraUI/MaterialUI/BootStrap</p>
             <p>Nextjs</p>
-            <p>Redux</p>
+            <p>Redux Toolkit</p>
             <p class="new-skill">Vuejs/VueX</p>
           </aside>
         </div>
@@ -20,16 +20,18 @@
           <h3>Back End</h3>
           <aside>
             <p>Nodejs</p>
-            <p>Expressjs</p>
+            <p>Expressjs/Fastfy</p>
+            <p>NestJS</p>
             <p>PostgreSQL</p>
+            <p>Knex/TypeORM</p>
             <p>MongoDB</p>
           </aside>
         </div>
         <div class="skills-card" data-aos="fade-up">
           <h3>API Design</h3>
           <aside>
-            <p>REST</p>
             <p>GraphQL</p>
+            <p>REST</p>
           </aside>
         </div>
         <div class="skills-card" data-aos="fade-up">
@@ -45,7 +47,6 @@
           <aside>
             <p>Vuejs</p>
             <p>Kotlin</p>
-            <p>NestJS</p>
             <!-- <p>Laravel</p> -->
           </aside>
         </div>
@@ -125,6 +126,7 @@ export default {
   content: "new";
   color: #ef4565;
   font-size: 12px;
+  font-weight: bolder;
   top: 0;
   margin-left: -15px;
 }
