@@ -28,7 +28,7 @@ html {
 }
 body {
   /* font-family: "Bai Jamjuree", sans-serif; */
-    font-family: "Quicksand", sans-serif !important;
+  font-family: "Quicksand", sans-serif !important;
   overflow-x: hidden;
 }
 /* headings color change in dark mode  */

@@ -15,7 +15,7 @@
       </div>
       <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
-          <h1 :class="{ 'color-change': this.isDark }">Frontend Developer.</h1>
+          <h1 :class="{ 'color-change': this.isDark }">UI Engineer.</h1>
           <p :style="[this.isDark ? { color: 'white' } : {}]">
             I am interested in building user friendly solutions on the web and I
             love to learn new stuff.
