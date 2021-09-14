@@ -5,7 +5,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      this.$store.commit("setToDarkMode");
+    } else {
+      this.$store.commit("setToLightMode");
+    }
+  },
+};
 </script>
 
 <style>
