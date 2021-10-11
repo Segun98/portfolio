@@ -24,11 +24,11 @@
             <button>Reach Out</button>
           </a>
           <div class="main-intro_bottom">
-            <small>
+            <small onclick="">
               I build modern responsive web applications for optimum user
               experience.
             </small>
-            <small>
+            <small onclick="">
               Accessibility, performance, scalability, seo... are my watchwords
             </small>
           </div>

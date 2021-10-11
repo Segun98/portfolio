@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="contact" id="contact">
+    <section class="contact" onclick="" id="contact">
       <h2 :class="{ 'color-change': this.isDark }">Contact.</h2>
       <form @submit="handleForm">
         <aside>
@@ -37,7 +37,9 @@
             v-model.trim="body"
           ></textarea>
         </aside>
-        <p class="loading" :class="{ 'loading-true': loading }">{{ message }}</p>
+        <p class="loading" :class="{ 'loading-true': loading }">
+          {{ message }}
+        </p>
         <div class="contact-btn">
           <button type="submit" :disabled="this.loading">Send</button>
         </div>

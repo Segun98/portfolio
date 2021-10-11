@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="about" :class="{ darkMode: this.isDark }" id="about">
-      <h2 :class="{ 'color-change': this.isDark }">About Me.</h2>
+      <h2 :class="{ 'color-change': this.isDark }" onclick="">About Me.</h2>
       <div class="about-wrap">
         <img src="undraw_profile_6l1l.svg" alt="about me image" />
         <div class="about-content">

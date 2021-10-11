@@ -1,6 +1,11 @@
 <template>
   <div>
-    <section class="skills" :class="{ darkMode: this.isDark }" id="skills">
+    <section
+      class="skills"
+      onclick=""
+      :class="{ darkMode: this.isDark }"
+      id="skills"
+    >
       <h2 :class="{ 'color-change': this.isDark }">Skills.</h2>
       <div class="skills-wrap">
         <div class="skills-card" data-aos="fade-up">
