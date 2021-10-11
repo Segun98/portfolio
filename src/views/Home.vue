@@ -243,6 +243,14 @@ aside img {
   border-bottom: 3px solid var(--blue);
   padding: 10px;
 }
+@media only screen and (min-width: 400px) {
+  .main-intro_bottom {
+    font-size: 0.9rem;
+  }
+  .main-intro_bottom small:last-child {
+    margin-left: 5px;
+  }
+}
 
 @media only screen and (min-width: 700px) {
   .intro-wrap {
