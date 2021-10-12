@@ -29,6 +29,7 @@
             <p>NestJS</p>
             <p>PostgreSQL</p>
             <p>Knex/TypeORM</p>
+            <p>TypeGraphQL</p>
             <p>MongoDB</p>
           </aside>
         </div>
