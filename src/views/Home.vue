@@ -39,7 +39,7 @@
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1000"
-            src="/favicon.jpg"
+            src="/segun-profile.jpg"
             alt="Segun's Picture"
           />
         </aside>
@@ -242,6 +242,7 @@ aside img {
   border-right: 3px solid var(--blue);
   border-bottom: 3px solid var(--blue);
   padding: 10px;
+  object-fit: cover;
 }
 @media only screen and (min-width: 400px) {
   .main-intro_bottom {
@@ -296,6 +297,8 @@ aside img {
   aside img {
     display: block;
     margin-top: 70px;
+    height: 380px;
+    width: 380px;
   }
   .main-intro p {
     font-size: 1.1rem;
