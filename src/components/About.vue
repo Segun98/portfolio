@@ -12,7 +12,7 @@
             ]"
           >
             I have spent the last 2yrs learning and improving my skills by
-            building different projects on the web. I have 6 months of
+            building different projects on the web. I have 8 months of
             professional experience working for startups in Nigeria and the US.
           </p>
 
@@ -56,8 +56,8 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am an ex-intern at HNG6 Internship as a front end developer and a
-            Business graduate (B.Sc). I love Lionel Messi and Barça! 🔴🔵
+            'Fun' facts: I studied Business in Uni (B.Sc), I am 6'3 tall, I love
+            Lionel Messi and Barça! 🔴🔵
           </p>
         </div>
       </div>
