@@ -289,6 +289,7 @@ aside img {
     margin-top: 0px;
     grid-template-columns: 2fr 1fr;
     height: 90vh;
+    padding-top: 80px;
   }
 
   aside {
