@@ -193,10 +193,17 @@ export default {
   }
 }
 /* bnded classes  */
-.open-menu {
-  transform: scale(1);
+nav aside.open-menu {
+  max-height: 300px;
   transition: ease 0.8s;
 }
+
+nav aside.open-menu ul {
+  transition: ease 0.1s;
+  transition-delay: 0.5s;
+  transform: scale(1);
+}
+
 .open-hamburger {
   transition: ease 0.6s;
   transform: skew(25deg);
@@ -227,8 +234,8 @@ nav aside {
   margin-top: 1rem;
   margin-left: -130px;
   background: #fffffe;
-  transform: scale(0);
-  transition: ease 0.8s;
+  max-height: 0;
+  transition: ease 0.3s;
   z-index: 1;
 }
 
@@ -237,7 +244,8 @@ nav aside ul {
   flex-direction: column;
   align-items: center;
   width: 200px;
-  height: 250px;
+  transform: scale(0);
+  transition: ease 0.2s;
 }
 
 nav ul li {
