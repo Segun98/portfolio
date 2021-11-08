@@ -196,6 +196,7 @@ export default {
 nav aside.open-menu {
   max-height: 300px;
   transition: ease 0.8s;
+  background: #d8eefe;
 }
 
 nav aside.open-menu ul {
