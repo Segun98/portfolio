@@ -39,7 +39,7 @@
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1000"
-            src="/segun-profile.jpg"
+            src="/segun.jpg"
             alt="Segun's Picture"
           />
         </aside>
