@@ -46,12 +46,18 @@
             <p>Git</p>
             <p>Github</p>
             <p>VSCode</p>
+            <p>Jira</p>
+            <p>Linear</p>
+            <p>Slack</p>
+            <p>Notion</p>
           </aside>
         </div>
         <div class="skills-card" data-aos="fade-up">
           <h3>Taking Lessons</h3>
           <aside>
             <p>Vuejs</p>
+            <p>Web Animation</p>
+            <p>Golang</p>
             <p>Kotlin</p>
             <!-- <p>Laravel</p> -->
           </aside>

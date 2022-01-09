@@ -29,7 +29,7 @@
               experience.
             </small>
             <small onclick="">
-              Accessibility, performance, scalability, seo... are my watchwords
+              Accessibility, performance, scalability... are my watchwords
             </small>
           </div>
         </div>

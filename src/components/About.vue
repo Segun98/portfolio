@@ -11,9 +11,9 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I have spent the last 2yrs learning and improving my skills by
-            building different projects on the web. I have 8 months of
-            professional experience working for startups in Nigeria and the US.
+            I am a passionate software engineer poised to add value and
+            efficiently fulfil the requirements of a business. I have 1.5 years
+            of experience working at fast-paced startups in Nigeria and the US.
           </p>
 
           <p
@@ -23,9 +23,7 @@
             ]"
           >
             I am interested in building web applications that solve real world
-            problems, showing concern for UX, DX and performance. I have built
-            mostly interactive data dashboards, including maps and all kinds of
-            charts, in my profesional experience.
+            problems, showing concern for UX, DX, performance and scalability.
             <br />
             <strong>
               I write occassionaly on
@@ -47,7 +45,7 @@
           >
             I am currently working on getting better at JavaScript with
             Algorithms and Data Structures and diving deeper into JavaScript
-            fullstack development. And oh, I am learning Kotlin.
+            fullstack development.
           </p>
 
           <p
