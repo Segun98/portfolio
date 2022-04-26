@@ -11,9 +11,9 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am a passionate software engineer poised to add value and
-            efficiently fulfil the requirements of a business. I have 1.5 years
-            of experience working at fast-paced startups in Nigeria and the US.
+            I am a software engineer poised to add value and efficiently fulfil
+            the requirements of a business. I have ~2 years of experience
+            working at fast-paced startups in Nigeria and the US.
           </p>
 
           <p

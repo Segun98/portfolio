@@ -24,12 +24,13 @@
             <button>Reach Out</button>
           </a>
           <div class="main-intro_bottom">
+            <small onclick=""
+              >Skilled at enhancing user experience with API integrations and
+              web performance metrics</small
+            >
             <small onclick="">
-              I build modern responsive web applications for optimum user
-              experience.
-            </small>
-            <small onclick="">
-              Accessibility, performance, scalability... are my watchwords
+              Experienced at crafting accessibile, performant and scalable web
+              applications.
             </small>
           </div>
         </div>
