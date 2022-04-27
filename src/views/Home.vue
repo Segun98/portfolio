@@ -190,7 +190,7 @@ main {
 }
 .main-intro {
   margin: auto;
-  width: 70%;
+  width: 80%;
 }
 
 .main-intro h1 {
