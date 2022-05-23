@@ -134,6 +134,7 @@ export default {
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
 .project-item h5 {
@@ -155,7 +156,7 @@ export default {
   color: #ef4565;
 }
 .project-btn {
-  margin: 20px auto;
+  margin: 25px auto 20px auto;
   width: 50%;
   text-align: center;
   cursor: pointer;
