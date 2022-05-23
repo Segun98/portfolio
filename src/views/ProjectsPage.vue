@@ -4,15 +4,17 @@
       <Header />
     </section>
 
-    <section class="projects-page" :class="{'darkMode': this.isDark}" id="top">
+    <section class="projects-page" :class="{ darkMode: this.isDark }" id="top">
       <h2 :class="{ 'color-change': this.isDark }">Some Of My Projects</h2>
       <div class="projects-page-wrap">
-      <div class="project-page-item" data-aos="fade-up">
+        <div class="project-page-item" data-aos="fade-up">
           <img :src="Tadlace" alt="Tadlace" />
           <p>Tadlace</p>
-          <h5>A "full-featured" multi vendor e-commerce website</h5>
+          <h5>A multi vendor e-commerce website</h5>
           <aside class="ecom-link">
-           <router-link to="/tadlace">Click here for more on this project...</router-link>
+            <router-link to="/tadlace"
+              >Click here for more on this project...</router-link
+            >
           </aside>
           <div class="tech-used">
             <p>Typescript</p>
@@ -29,14 +31,16 @@
                 href="https://tadlace.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/e-commerce"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -61,14 +65,16 @@
                 href="https://employeez.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/employeez"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -90,14 +96,16 @@
                 href="https://locallog.now.sh"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/locallog"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -118,14 +126,16 @@
                 href="https://nairatrack.now.sh"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/NairaTrack"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -133,7 +143,9 @@
         <div class="project-page-item" data-aos="fade-up">
           <img :src="Averages" alt="the image of an app named Averages" />
           <p>Averages</p>
-          <h5>Mean, Mean Deviation, Variance and Standard deviation Calculator</h5>
+          <h5>
+            Mean, Mean Deviation, Variance and Standard deviation Calculator
+          </h5>
           <div class="tech-used">
             <p>Reactjs</p>
             <p>Context API</p>
@@ -145,14 +157,16 @@
                 href="https://averages.now.sh"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/averages-calculator"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -172,14 +186,16 @@
                 href="https://segun98.github.io/quiz-app/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/quiz-app"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -199,14 +215,16 @@
                 href="https://segun98.github.io/manage-landing-page/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/manage-landing-page"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -214,7 +232,10 @@
         <div class="project-page-item" data-aos="fade-up">
           <img :src="Youtube" alt="the image of an Youtube Clone app" />
           <p>Youtube Clone</p>
-          <h5>It was built the morning after Nigeria recorded its first case of Covid-19. This was in February</h5>
+          <h5>
+            It was built the morning after Nigeria recorded its first case of
+            Covid-19. This was in February
+          </h5>
           <div class="tech-used">
             <p>Reactjs</p>
             <p>Youtube API</p>
@@ -226,14 +247,16 @@
                 href="https://youtube-clone.segunos.now.sh/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/Youtube-Clone-App"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -241,7 +264,10 @@
         <div class="project-page-item" data-aos="fade-up">
           <img :src="Cart" alt="the image of my shopping cart project" />
           <p>Shopping Cart</p>
-          <h5>My first introduction to Higher Order Array Methods like map, filter, reduce</h5>
+          <h5>
+            My first introduction to Higher Order Array Methods like map,
+            filter, reduce
+          </h5>
           <div class="tech-used">
             <p>Reactjs</p>
             <p>Context API</p>
@@ -253,14 +279,16 @@
                 href="https://shoppingcart-project.now.sh"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Live Preview</a>
+                >Live Preview</a
+              >
             </span>
             <span>
               <a
                 href="https://github.com/Segun98/shopping-cart-project"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Github Repo</a>
+                >Github Repo</a
+              >
             </span>
           </div>
         </div>
@@ -290,7 +318,7 @@ import Tadlace from "@/assets/tadlace/p10.png";
 export default {
   components: {
     Header,
-    Footer
+    Footer,
   },
   data() {
     return {
@@ -302,14 +330,14 @@ export default {
       Quiz,
       Cart,
       Youtube,
-      Tadlace
+      Tadlace,
     };
   },
   computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -388,12 +416,12 @@ export default {
   margin: 3px;
 }
 
-.ecom-link{
+.ecom-link {
   text-align: center;
 }
 
-.ecom-link a{
-  color:#ef4565;
+.ecom-link a {
+  color: #ef4565;
 }
 @media only screen and (min-width: 700px) {
   .projects-page-wrap {

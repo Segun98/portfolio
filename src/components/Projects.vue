@@ -6,11 +6,7 @@
         <div class="project-item" data-aos="fade-up">
           <img :src="Tadlace" alt="Tadlace" />
           <p>Tadlace</p>
-          <h5>
-            A "full-featured" multi vendor e-commerce website built with
-            TypeScript, Nextjs, Node/ExpressJS, GraphQL, PostgreSQL, Paystack
-            and Flutterwave API...
-          </h5>
+          <h5>A multi vendor e-commerce website.</h5>
           <div class="project-span">
             <span>
               <a href="/tadlace#top">Read More...</a>
@@ -36,10 +32,7 @@
         <div class="project-item" data-aos="fade-up">
           <img :src="Employeez" alt="the image of an app named Employeez" />
           <p>Employeez</p>
-          <h5>
-            An Employee and Customer Management web application built with
-            Typescript, Reactjs and Nodejs...
-          </h5>
+          <h5>An Employee and Customer Management software.</h5>
           <div class="project-span">
             <span>
               <a
