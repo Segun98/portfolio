@@ -92,7 +92,8 @@ export default {
 
 <style>
 .projects {
-  background: #d8eefe;
+  /* background: #d8eefe; */
+  background: white; /* now white after taking out skills components */
   padding: 40px 0;
   transition: 0.5s ease-in-out;
 }
