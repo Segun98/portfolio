@@ -142,7 +142,6 @@ export default {
 }
 
 .project-span span {
-  margin-left: 8px;
   font-size: 0.9rem;
 }
 .project-span span a {
