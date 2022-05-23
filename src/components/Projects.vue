@@ -142,13 +142,19 @@ export default {
 }
 
 .project-span span {
+  margin-left: 8px;
   font-size: 0.9rem;
 }
+
+.project-span span:first-child {
+  margin-left: 0px;
+}
+
 .project-span span a {
   color: #ef4565;
 }
 .project-btn {
-  margin: 25px auto 20px auto;
+  margin: 30px auto 20px auto;
   width: 50%;
   text-align: center;
   cursor: pointer;
