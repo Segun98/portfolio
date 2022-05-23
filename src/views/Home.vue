@@ -51,9 +51,9 @@
       <About />
     </section>
 
-    <section>
+    <!-- <section>
       <Skills />
-    </section>
+    </section> -->
 
     <section>
       <Projects />

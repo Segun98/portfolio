@@ -43,9 +43,8 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am currently working on getting better at JavaScript with
-            Algorithms and Data Structures and diving deeper into JavaScript
-            fullstack development.
+            I currently work full-time as a full-stack engineer. In my spare
+            time, I practice Algorithms and Data Structures and EpicReact.dev.
           </p>
 
           <p

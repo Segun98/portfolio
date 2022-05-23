@@ -30,9 +30,9 @@
               <li>
                 <a href="/#about">about</a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="/#skills">skills</a>
-              </li>
+              </li> -->
               <li>
                 <router-link to="/projects">projects</router-link>
               </li>
