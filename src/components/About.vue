@@ -11,9 +11,9 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am a software engineer poised to add value and efficiently fulfil
-            the requirements of a business. I have ~2 years of experience
-            working at fast-paced startups in Nigeria and the US.
+            I am a web engineer poised to add value and efficiently fulfil the
+            requirements of a business. I have ~2 years of experience working at
+            startups in Nigeria and the US.
           </p>
 
           <p
@@ -43,8 +43,9 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I currently work full-time as a full-stack engineer. In my spare
-            time, I practice Algorithms and Data Structures and EpicReact.dev.
+            I currently work full-time as a full-stack engineer at Dock. In my
+            spare time, I practice Algorithms and Data Structures and
+            EpicReact.dev.
           </p>
 
           <p
