@@ -133,6 +133,9 @@ export default {
 </script>
 
 <style scoped>
+header {
+  border-bottom: 1px solid #d8eefe;
+}
 .darkMode {
   background: rgb(21, 32, 43);
   background: black;

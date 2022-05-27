@@ -13,6 +13,15 @@
         <!-- <small class="particles-item">&#8226; graphql</small> -->
         <small class="particles-item">best practices</small>
       </div>
+      <div
+        class="new-intro"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        :style="[this.isDark ? { color: 'white' } : {}]"
+      >
+        Welcome! <br />
+        I've been expecting you 👋
+      </div>
       <!-- <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
           <h1 :class="{ 'color-change': this.isDark }">UI Engineer.</h1>
@@ -179,6 +188,21 @@ main {
   transition: 0.5s ease-in-out;
 }
 
+.new-intro {
+  color: #094067;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 50px 0;
+  text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .new-intro {
+    font-size: 2.5rem;
+    padding: 150px 0;
+    font-weight: bold;
+  }
+}
 .intro-wrap {
   display: grid;
   grid-template-columns: 1fr;
