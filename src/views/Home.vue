@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main :class="{ darkMode: this.isDark }">
+    <main :class="{ darkMode: this.isDark }" id="intro">
       <Header />
       <div class="particles">
         <small class="particles-item">accessibility</small>
@@ -13,7 +13,7 @@
         <!-- <small class="particles-item">&#8226; graphql</small> -->
         <small class="particles-item">best practices</small>
       </div>
-      <div class="intro-wrap" id="intro">
+      <!-- <div class="intro-wrap" id="intro">
         <div class="main-intro" data-aos="fade-up" data-aos-duration="1000">
           <h1 :class="{ 'color-change': this.isDark }">UI Engineer.</h1>
           <p :style="[this.isDark ? { color: 'white' } : {}]">
@@ -44,7 +44,7 @@
             alt="Segun's Picture"
           />
         </aside>
-      </div>
+      </div> -->
     </main>
 
     <section>
