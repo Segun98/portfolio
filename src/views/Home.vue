@@ -192,15 +192,13 @@ main {
   color: #094067;
   font-size: 1.5rem;
   font-weight: bold;
-  padding: 50px 0;
+  padding: 30vh 0;
   text-align: center;
 }
 
 @media only screen and (min-width: 700px) {
   .new-intro {
     font-size: 2.5rem;
-    padding: 150px 0;
-    font-weight: bold;
   }
 }
 .intro-wrap {

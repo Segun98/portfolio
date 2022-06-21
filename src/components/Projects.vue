@@ -32,7 +32,7 @@
         <div class="project-item" data-aos="fade-up">
           <img :src="Employeez" alt="the image of an app named Employeez" />
           <p>Employeez</p>
-          <h5>An Employee and Customer Management software.</h5>
+          <h5>An Employee and Customer Management SAAS.</h5>
           <div class="project-span">
             <span>
               <a

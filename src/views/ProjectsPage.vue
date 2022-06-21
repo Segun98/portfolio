@@ -48,7 +48,7 @@
         <div class="project-page-item" data-aos="fade-up">
           <img :src="Employeez" alt="the image of an app named Employeez" />
           <p>Employeez</p>
-          <h5>An Employee and Customer Management web application</h5>
+          <h5>An Employee and Customer Management SAAS</h5>
           <div class="tech-used">
             <p>Typescript</p>
             <p>Reactjs - Redux</p>
