@@ -121,10 +121,12 @@ export default {
   color: #5f6c7b;
   margin: 10px 0;
   line-height: 1.5;
+  border-radius: 8px;
 }
 
 .about-content p:hover {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  transition: all 250ms;
 }
 
 @media only screen and (min-width: 700px) {
