@@ -61,7 +61,7 @@
 
                 <li>
                   <a
-                    href="https://twitter.com/segun_os"
+                    href="https://twitter.com/segunnn_"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
