@@ -67,11 +67,6 @@
                   >
                     <img :src="Twitter" alt="my Twitter profile" />
                   </a>
-                  <!-- <a
-                    href="https://twitter.com/segun_os"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >TW</a> -->
                 </li>
                 <li>
                   <a
