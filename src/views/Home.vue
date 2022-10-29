@@ -64,9 +64,9 @@
       <Skills />
     </section> -->
 
-    <section>
+    <!-- <section>
       <Projects />
-    </section>
+    </section> -->
 
     <section>
       <Contact />
