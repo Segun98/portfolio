@@ -25,7 +25,7 @@
             problems, showing concern for UX, DX, performance and scalability.
             <br />
             <strong>
-              I write occassionaly on
+              I write occasionally on
               <a
                 href="https://dev.to/segun98"
                 target="_blank"
