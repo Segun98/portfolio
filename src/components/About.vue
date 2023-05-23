@@ -11,7 +11,7 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am a software engineer with ~2 years of experience working at
+            I am a software engineer with ~3 years of experience working at
             fast-paced startups in Nigeria and the US.
           </p>
 
