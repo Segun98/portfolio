@@ -106,7 +106,7 @@ ReactJS, NextJS
 <p :class="{'light': this.isDark}">
     <span>
               <a
-                href="https://tadlace.vercel.app"
+                href="https://skincare-project.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Live Preview... {{" "}}</a
@@ -129,70 +129,67 @@ ReactJS, NextJS
 </template>
 
 <script>
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import 'vueperslides/dist/vueperslides.css'
-import {
-  VueperSlides,
-  VueperSlide
-} from 'vueperslides'
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import "vueperslides/dist/vueperslides.css";
+import { VueperSlides, VueperSlide } from "vueperslides";
 
 //Images
-import Login from "../assets/tadlace/p3.png"
-import Cart from "../assets/tadlace/p4.png"
-import Orders from "../assets/tadlace/p1.png"
-import Product from "../assets/tadlace/p13.png"
-import Vorders from "../assets/tadlace/p9.png"
-import Store from "../assets/tadlace/p12.png"
-import Dashboard from "../assets/tadlace/p7.png"
+import Login from "../assets/tadlace/p3.png";
+import Cart from "../assets/tadlace/p4.png";
+import Orders from "../assets/tadlace/p1.png";
+import Product from "../assets/tadlace/p13.png";
+import Vorders from "../assets/tadlace/p9.png";
+import Store from "../assets/tadlace/p12.png";
+import Dashboard from "../assets/tadlace/p7.png";
 export default {
-    components: {
-        Header,
-        Footer,
+  components: {
+    Header,
+    Footer,
     VueperSlides,
-    VueperSlide
+    VueperSlide,
   },
-   computed: {
+  computed: {
     isDark() {
       return this.$store.getters.darkState;
-    }
+    },
   },
- data: () => ({
-     Login,
-     Cart,
-     Orders,
-     Product,
-     Vorders,
-     Store,
-     Dashboard,
-   pauseOnHover: true,
-  autoPlaying: true,
-  internalAutoPlaying: true,
-  slides: [
-    {
-      image:require('@/assets/tadlace/p10.png'),
-    },
-    {
-      image:require('@/assets/tadlace/p6.png'),
-    },
-    {
-      image:require('@/assets/tadlace/p4.png'),
-    },
-    {
-      image:require('@/assets/tadlace/p5.png'),
-    },
-    {
-      image:require('@/assets/tadlace/p7.png'),
-    },
-    {
-      image:require('@/assets/tadlace/p9.png'),
-    },
-    {
-      image:require('@/assets/tadlace/p12.png'),
-    },
-  ]
-})
-}
+  data: () => ({
+    Login,
+    Cart,
+    Orders,
+    Product,
+    Vorders,
+    Store,
+    Dashboard,
+    pauseOnHover: true,
+    autoPlaying: true,
+    internalAutoPlaying: true,
+    slides: [
+      {
+        image: require("@/assets/tadlace/p10.png"),
+      },
+      {
+        image: require("@/assets/tadlace/p6.png"),
+      },
+      {
+        image: require("@/assets/tadlace/p4.png"),
+      },
+      {
+        image: require("@/assets/tadlace/p5.png"),
+      },
+      {
+        image: require("@/assets/tadlace/p7.png"),
+      },
+      {
+        image: require("@/assets/tadlace/p9.png"),
+      },
+      {
+        image: require("@/assets/tadlace/p12.png"),
+      },
+    ],
+  }),
+};
 </script>
 
 <style scoped>
@@ -201,83 +198,79 @@ export default {
   transition: 0.5s ease-in-out;
 }
 
-.light{
+.light {
   transition: 0.5s ease-in-out;
   color: white;
 }
-h1{
-    text-align: center;
-    color:var(--blue);
-    margin: 20px 0;
+h1 {
+  text-align: center;
+  color: var(--blue);
+  margin: 20px 0;
 }
-.tadlace-wrap{
-margin: auto;
-width: 90%;
+.tadlace-wrap {
+  margin: auto;
+  width: 90%;
 }
-.tadlace-about{
-   margin: 20px auto;
-width: 90%; 
-
+.tadlace-about {
+  margin: 20px auto;
+  width: 90%;
 }
-.tadlace-about p{
- line-height: 1.5;
-font-size: 0.9rem;
-}
-
-ul li{
-    list-style: circle;
-}
-h3{
-    font-size: 0.9rem;
-    text-align: center;
-    color: var(--blue);
-    padding: 5px 0;
-}
-figure{
-    margin: 5px 0;
-}
-figure img{
-max-width: 100%;
-height: auto;    
-}
-figcaption{
-    font-size:0.8rem;
-    text-align: center;
-    padding: 5px 0;
+.tadlace-about p {
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
 
+ul li {
+  list-style: circle;
+}
+h3 {
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--blue);
+  padding: 5px 0;
+}
+figure {
+  margin: 5px 0;
+}
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 5px 0;
+}
 
-@media only screen and (min-width:700px){
-    h1{
+@media only screen and (min-width: 700px) {
+  h1 {
     margin: 50px 0;
-}
+  }
 
-.tadlace-wrap{
-width: 80%;
-}
-.tadlace-about{
-   margin: 50px auto;
-width: 90%; 
+  .tadlace-wrap {
+    width: 80%;
+  }
+  .tadlace-about {
+    margin: 50px auto;
+    width: 90%;
+  }
+  .tadlace-about p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
 
-}
-.tadlace-about p{
- line-height: 1.8;
-font-size: 1.1rem;
-}
-
-h3{
+  h3 {
     font-size: 1.2rem;
     padding: 9px 0;
-}
-figcaption{
-  font-size: 1rem;
-}
+  }
+  figcaption {
+    font-size: 1rem;
+  }
 }
 
-@media only screen and (min-width:1000px){
-.tadlace-about{
-width: 70%; 
-
-}
+@media only screen and (min-width: 1000px) {
+  .tadlace-about {
+    width: 70%;
+  }
 }
 </style>

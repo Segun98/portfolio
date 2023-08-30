@@ -13,7 +13,7 @@
             </span>
             <span>
               <a
-                href="https://tadlace.vercel.app"
+                href="https://skincare-project.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Live Preview</a
