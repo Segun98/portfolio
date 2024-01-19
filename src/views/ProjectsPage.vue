@@ -8,6 +8,39 @@
       <h2 :class="{ 'color-change': this.isDark }">Some hobby projects</h2>
       <div class="projects-page-wrap">
         <div class="project-page-item" data-aos="fade-up">
+          <img :src="Resgen" alt="Resgen" />
+          <p>Resgen</p>
+          <h5>
+            An opinionated CLI tool to generate GraphQL resolver starter files
+            and folders.
+          </h5>
+
+          <div class="tech-used">
+            <p>Typescript</p>
+            <p>NodeJS</p>
+            <p>CLI</p>
+          </div>
+          <div class="project-page-span">
+            <span>
+              <a
+                href="https://www.npmjs.com/package/resgen"
+                target="_blank"
+                rel="noopener noreferrer"
+                >NPM</a
+              >
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/resgen"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github Repo</a
+              >
+            </span>
+          </div>
+        </div>
+
+        <div class="project-page-item" data-aos="fade-up">
           <img :src="Tadlace" alt="Tadlace" />
           <p>Tadlace</p>
           <h5>A multi vendor e-commerce website</h5>
@@ -314,6 +347,7 @@ import Quiz from "../assets/quiz-app-sc.png";
 import Cart from "../assets/cart-project.png";
 import Youtube from "../assets/youtube-clone.png";
 import Tadlace from "@/assets/tadlace/p10.png";
+import Resgen from "../assets/resgen.png";
 
 export default {
   components: {
@@ -331,6 +365,7 @@ export default {
       Cart,
       Youtube,
       Tadlace,
+      Resgen,
     };
   },
   computed: {
