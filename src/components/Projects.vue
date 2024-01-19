@@ -4,6 +4,36 @@
       <h2 :class="{ 'color-change': this.isDark }">Projects.</h2>
       <div class="projects-wrap">
         <div class="project-item" data-aos="fade-up">
+          <img :src="Resgen" alt="Resgen" />
+          <p>Resgen</p>
+          <h5>
+            An opinionated CLI tool to generate GraphQL resolver starter files
+            and folders.
+          </h5>
+          <div class="project-span">
+            <span>
+              <a href="https://github.com/Segun98/resgen#readme">README</a>
+            </span>
+            <span>
+              <a
+                href="https://www.npmjs.com/package/resgen"
+                target="_blank"
+                rel="noopener noreferrer"
+                >NPM</a
+              >
+            </span>
+            <span>
+              <a
+                href="https://github.com/Segun98/resgen"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github Repo</a
+              >
+            </span>
+          </div>
+        </div>
+
+        <div class="project-item" data-aos="fade-up">
           <img :src="Tadlace" alt="Tadlace" />
           <p>Tadlace</p>
           <h5>A multi vendor e-commerce website.</h5>
@@ -12,10 +42,7 @@
               <a href="/tadlace#top">Read More...</a>
             </span>
             <span>
-              <a
-                href="https://skincare-project.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <a href="/tadlace#top" target="_blank" rel="noopener noreferrer"
                 >Live Preview</a
               >
             </span>
@@ -63,11 +90,14 @@
 <script>
 import Employeez from "../assets/employeezapp.png";
 import Tadlace from "../assets/tadlace/p10.png";
+import Resgen from "../assets/resgen.png";
+
 export default {
   data() {
     return {
       Employeez,
       Tadlace,
+      Resgen,
     };
   },
   computed: {
