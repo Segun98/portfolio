@@ -84,8 +84,7 @@ export default {
           }
         );
         const data = await res.data;
-        console.log(data);
-        if (data.message) {
+        if (data) {
           this.name = "";
           this.email = "";
           this.body = "";
