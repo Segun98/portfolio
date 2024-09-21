@@ -70,19 +70,18 @@ export default {
       e.preventDefault();
       const payload = {
         email: this.email,
-        text: `${this.name},
-
-
-        ${this.body}`,
+        message: this.body,
+        name: this.name,
       };
       try {
         this.loading = true;
         this.message = "Sending...";
         const res = await axios.post(
-          "https://apiportfolio.vercel.app/api/mail",
+          "https://portfolio-backend-cj58utmj3-segun-olanitoris-projects.vercel.app/send-mail",
           payload
         );
         const data = await res.data;
+        console.log(data);
         if (data.message) {
           this.name = "";
           this.email = "";
