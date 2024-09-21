@@ -78,7 +78,10 @@ export default {
         this.message = "Sending...";
         const res = await axios.post(
           "https://portfolio-backend-cj58utmj3-segun-olanitoris-projects.vercel.app/send-mail",
-          payload
+          payload,
+          {
+            withCredentials: true,
+          }
         );
         const data = await res.data;
         console.log(data);
