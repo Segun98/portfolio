@@ -77,7 +77,7 @@ export default {
         this.loading = true;
         this.message = "Sending...";
         const res = await axios.post(
-          "https://portfolio-backend-cj58utmj3-segun-olanitoris-projects.vercel.app/send-mail",
+          "https://portfolio-backend-ashy-one.vercel.app/send-mail",
           payload,
           {
             withCredentials: true,
