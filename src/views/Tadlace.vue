@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div :class="{'darkMode': this.isDark}">
  <Header />
  <section class="tadlace-head" id="top">
@@ -273,4 +273,4 @@ figcaption {
     width: 70%;
   }
 }
-</style>
+</style> -->

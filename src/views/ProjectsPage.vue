@@ -41,14 +41,9 @@
         </div>
 
         <div class="project-page-item" data-aos="fade-up">
-          <img :src="Tadlace" alt="Tadlace" />
-          <p>Tadlace</p>
+          <img :src="Tadlace" alt="ecommerce" />
+          <p>Partystore</p>
           <h5>A multi vendor e-commerce website</h5>
-          <aside class="ecom-link">
-            <router-link to="/tadlace"
-              >Click here for more on this project...</router-link
-            >
-          </aside>
           <div class="tech-used">
             <p>Typescript</p>
             <p>NextJS</p>
@@ -61,7 +56,7 @@
           <div class="project-page-span">
             <span>
               <a
-                href="https://tadlace.vercel.app"
+                href="https://app.tadlace.io"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Live Preview</a

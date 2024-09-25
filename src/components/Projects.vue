@@ -35,7 +35,7 @@
 
         <div class="project-item" data-aos="fade-up">
           <img :src="Tadlace" alt="Tadlace" />
-          <p>Tadlace</p>
+          <p>Ecommerce</p>
           <h5>A multi vendor e-commerce website.</h5>
           <div class="project-span">
             <span>
