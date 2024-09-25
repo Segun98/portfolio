@@ -39,10 +39,13 @@
           <h5>A multi vendor e-commerce website.</h5>
           <div class="project-span">
             <span>
-              <a href="/tadlace#top">Read More...</a>
+              <a href="https://app.tadlace.io">Read More...</a>
             </span>
             <span>
-              <a href="/tadlace#top" target="_blank" rel="noopener noreferrer"
+              <a
+                href="https://app.tadlace.io"
+                target="_blank"
+                rel="noopener noreferrer"
                 >Live Preview</a
               >
             </span>
