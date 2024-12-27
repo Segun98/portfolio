@@ -22,7 +22,7 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am Passionate about solving real-world problems. I prioritize UX,
+            I am passionate about solving real-world problems. I prioritize UX,
             DX, performance, and scalability in everything I build.
           </p>
 
