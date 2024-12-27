@@ -11,8 +11,9 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am a software engineer with ~5 years of experience working at
-            fast-paced startups in Nigeria and the US.
+            I'm a software engineer with ~5 years of experience building
+            scalable, user-focused web applications at fast-paced startups in
+            Nigeria and the US.
           </p>
 
           <p
@@ -21,8 +22,8 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am interested in building web applications that solve real world
-            problems, showing concern for UX, DX, performance and scalability.
+            I am Passionate about solving real-world problems. I prioritize UX,
+            DX, performance, and scalability in everything I build.
           </p>
 
           <p
@@ -31,8 +32,10 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I currently work full-time as a full-stack engineer at Dock. In my
-            spare time, I practice Algorithms and Data Structures.
+            Currently, I work as a full-stack engineer at Dock, where I’ve
+            helped build awesome features that helps business sell better to
+            customers. In my spare time, I refine my skills in Algorithms and
+            Data Structures,
           </p>
 
           <p
@@ -41,8 +44,8 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            'Fun' facts: I studied Business in Uni (B.Sc), I am 6'4 tall, I love
-            Lionel Messi and Barça! 🔴🔵
+            'Fun' facts: I studied Business (B.Sc), I’m 6’4, and I’m a big fan
+            of Lionel Messi and Barça! 🔴🔵
           </p>
         </div>
       </div>

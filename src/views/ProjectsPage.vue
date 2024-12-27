@@ -41,17 +41,21 @@
         </div>
 
         <div class="project-page-item" data-aos="fade-up">
-          <img :src="Tadlace" alt="ecommerce" />
-          <p>Partystore</p>
-          <h5>A multi vendor e-commerce website</h5>
+          <img :src="Tadlace" alt="tadlace" />
+          <p>Tadlace</p>
+          <h5>
+            An AI-powered platform for creating and playing multi-player
+            quizzes.
+          </h5>
           <div class="tech-used">
+            <p>Nestjs/Nodejs/Expressjs</p>
+            <p>AWS Lambda</p>
+            <p>Bull Queue</p>
             <p>Typescript</p>
             <p>NextJS</p>
             <p>GraphQL</p>
-            <p>SASS / Chakra UI</p>
-            <p>Nodejs/Expressjs</p>
             <p>PostgreSQL</p>
-            <p>PayStack API</p>
+            <p>Websockets/GraphQL Subscriptions</p>
           </div>
           <div class="project-page-span">
             <span>
@@ -60,14 +64,6 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 >Live Preview</a
-              >
-            </span>
-            <span>
-              <a
-                href="https://github.com/Segun98/e-commerce"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Github Repo</a
               >
             </span>
           </div>
@@ -341,7 +337,7 @@ import Manage from "../assets/manage-page.png";
 import Quiz from "../assets/quiz-app-sc.png";
 import Cart from "../assets/cart-project.png";
 import Youtube from "../assets/youtube-clone.png";
-import Tadlace from "@/assets/tadlace/p10.png";
+import Tadlace from "../assets/tadlace-create.png";
 import Resgen from "../assets/resgen.png";
 
 export default {
