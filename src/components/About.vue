@@ -33,7 +33,7 @@
             ]"
           >
             Currently, I work as a full-stack engineer at Dock, where I’ve
-            helped build awesome features that helps business sell better to
+            helped build awesome features that help businesses sell better to
             customers. In my spare time, I refine my skills in Algorithms and
             Data Structures,
           </p>
