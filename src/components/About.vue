@@ -11,7 +11,7 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            I am a software engineer with ~4 years of experience working at
+            I am a software engineer with ~5 years of experience working at
             fast-paced startups in Nigeria and the US.
           </p>
 
@@ -23,17 +23,6 @@
           >
             I am interested in building web applications that solve real world
             problems, showing concern for UX, DX, performance and scalability.
-            <br />
-            <strong>
-              I write occasionally on
-              <a
-                href="https://dev.to/segun98"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                dev.to
-              </a>
-            </strong>
           </p>
 
           <p
@@ -43,8 +32,7 @@
             ]"
           >
             I currently work full-time as a full-stack engineer at Dock. In my
-            spare time, I practice Algorithms and Data Structures and
-            EpicReact.dev.
+            spare time, I practice Algorithms and Data Structures.
           </p>
 
           <p
@@ -53,7 +41,7 @@
               this.isDark ? { color: 'white', background: '#0c0c0c' } : {},
             ]"
           >
-            'Fun' facts: I studied Business in Uni (B.Sc), I am 6'3 tall, I love
+            'Fun' facts: I studied Business in Uni (B.Sc), I am 6'4 tall, I love
             Lionel Messi and Barça! 🔴🔵
           </p>
         </div>

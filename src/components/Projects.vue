@@ -35,8 +35,11 @@
 
         <div class="project-item" data-aos="fade-up">
           <img :src="Tadlace" alt="Tadlace" />
-          <p>Ecommerce</p>
-          <h5>A multi vendor e-commerce website.</h5>
+          <p>Tadlace</p>
+          <h5>
+            An AI-powered platform for creating and playing multi-player
+            quizzes.
+          </h5>
           <div class="project-span">
             <span>
               <a href="https://app.tadlace.io">Read More...</a>
@@ -47,14 +50,6 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 >Live Preview</a
-              >
-            </span>
-            <span>
-              <a
-                href="https://github.com/Segun98/e-commerce"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Github Repo</a
               >
             </span>
           </div>
@@ -92,7 +87,7 @@
 
 <script>
 import Employeez from "../assets/employeezapp.png";
-import Tadlace from "../assets/tadlace/p10.png";
+import Tadlace from "../assets/tadlace-create.png";
 import Resgen from "../assets/resgen.png";
 
 export default {
